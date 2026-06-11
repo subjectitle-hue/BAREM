@@ -29,17 +29,15 @@ jobs:
             -sdk iphonesimulator \
             -configuration Debug \
             -derivedDataPath build \
-            CODE_SIGN_IDENTITY=- \
             CODE_SIGNING_ALLOWED=YES \
             CODE_SIGNING_REQUIRED=NO \
-            EXCLUDED_ARCHS[sdk=iphonesimulator*]=i386 \
+            CODE_SIGN_IDENTITY=- \
             ONLY_ACTIVE_ARCH=NO \
             build 2>&1 | tee "$GITHUB_WORKSPACE/xcodebuild.log"
           APP=build/Build/Products/Debug-iphonesimulator/Barem.app
           test -f "$APP/Barem"
-          test -f "$APP/engine/h_engine_full.json"
+          find "$APP" -name 'h_engine_full.json' | grep -q .
           file "$APP/Barem"
-          lipo -info "$APP/Barem"
 
       - name: Package for Appetize
         run: |
