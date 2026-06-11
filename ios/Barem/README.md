@@ -2,6 +2,8 @@
 
 Android `tr.erdaldemir.barem` uygulamasının iOS karşılığı — **sürüm 0.2.2** (versionCode 5).
 
+CI: Appetize simulator zip `APPETIZE-UPLOAD-THIS-ZIP` artifact'ından indirilir.
+
 Android ile aynı: `0.2.2` / build `5` / bundle `tr.erdaldemir.barem`.
 
 ## Mac'te açma
