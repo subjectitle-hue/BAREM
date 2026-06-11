@@ -100,21 +100,21 @@ struct AnalyticsChartsView: View {
         case .usd:
             if !session.yearlySeries.isEmpty {
                 return session.yearlySeries.compactMap { row in
-                    row.fxOutput?.yearlyAvgUsd.map { YearValueRow(year: row.year, yearlyValue: $0) }
+                    row.fxOutput.map { YearValueRow(year: row.year, yearlyValue: $0.yearlyAvgUsd) }
                 }
             }
             return repo.usdRates()
         case .eur:
             if !session.yearlySeries.isEmpty {
                 return session.yearlySeries.compactMap { row in
-                    row.fxOutput?.yearlyAvgEur.map { YearValueRow(year: row.year, yearlyValue: $0) }
+                    row.fxOutput.map { YearValueRow(year: row.year, yearlyValue: $0.yearlyAvgEur) }
                 }
             }
             return []
         case .gold:
             if !session.yearlySeries.isEmpty {
                 return session.yearlySeries.compactMap { row in
-                    row.fxOutput?.yearlyAvgGoldQuarter.map { YearValueRow(year: row.year, yearlyValue: $0) }
+                    row.fxOutput.map { YearValueRow(year: row.year, yearlyValue: $0.yearlyAvgGoldQuarter) }
                 }
             }
             return repo.goldRates()
