@@ -19,7 +19,7 @@ jobs:
           cp -f app/src/main/assets/engine/* ios/Barem/Barem/Resources/engine/
           cp -f app/src/main/assets/memur/* ios/Barem/Barem/Resources/memur/
 
-      - name: Build Barem for iOS Simulator
+      - name: Build Barem for iOS Simulator (arm64)
         run: |
           cd ios/Barem
           xcodebuild \
@@ -29,9 +29,18 @@ jobs:
             -configuration Debug \
             -derivedDataPath build \
             CODE_SIGNING_ALLOWED=NO \
-            ONLY_ACTIVE_ARCH=NO \
+            ARCHS=arm64 \
+            ONLY_ACTIVE_ARCH=YES \
             | xcpretty || true
-          test -d build/Build/Products/Debug-iphonesimulator/Barem.app
+          APP=build/Build/Products/Debug-iphonesimulator/Barem.app
+          test -d "$APP"
+          test -f "$APP/Barem"
+
+      - name: Sign for Appetize
+        run: |
+          APP=ios/Barem/build/Build/Products/Debug-iphonesimulator/Barem.app
+          codesign --force --sign - "$APP"
+          lipo -info "$APP/Barem"
 
       - name: Package for Appetize
         run: |
