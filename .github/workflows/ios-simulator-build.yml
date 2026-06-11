@@ -29,14 +29,14 @@ jobs:
             -configuration Debug \
             -derivedDataPath build \
             CODE_SIGNING_ALLOWED=NO \
-            ONLY_ACTIVE_ARCH=NO
+            ONLY_ACTIVE_ARCH=NO \
+            | xcpretty || true
           test -d build/Build/Products/Debug-iphonesimulator/Barem.app
 
       - name: Package for Appetize
         run: |
           cd ios/Barem/build/Build/Products/Debug-iphonesimulator
           zip -ry "$GITHUB_WORKSPACE/Barem-appetize.zip" Barem.app
-          unzip -l "$GITHUB_WORKSPACE/Barem-appetize.zip" | head -20
 
       - uses: actions/upload-artifact@v4
         with:
