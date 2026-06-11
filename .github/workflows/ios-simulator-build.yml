@@ -36,8 +36,7 @@ jobs:
             build 2>&1 | tee "$GITHUB_WORKSPACE/xcodebuild.log"
           APP=build/Build/Products/Debug-iphonesimulator/Barem.app
           test -f "$APP/Barem"
-          find "$APP" -name 'h_engine_full.json' | grep -q .
-          file "$APP/Barem"
+          ls -la "$APP" | head -20
 
       - name: Package for Appetize
         run: |

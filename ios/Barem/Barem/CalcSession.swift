@@ -30,9 +30,7 @@ final class CalcSession: ObservableObject {
         guard hasActiveSession, yearlySeries.isEmpty, !yearlyLoading else { return }
         guard let form = lastForm else { return }
         yearlyLoading = true
-        let series = await Task.detached(priority: .userInitiated) {
-            Self.computeYearlySeries(form: form)
-        }.value
+        let series = computeYearlySeries(form: form)
         yearlySeries = series
         yearlyLoading = false
     }
@@ -41,14 +39,11 @@ final class CalcSession: ObservableObject {
         guard PremiumManager.shared.isPremium, let form = lastForm else { return }
         yearlyLoading = true
         yearlySeries = []
-        let series = await Task.detached(priority: .userInitiated) {
-            Self.computeYearlySeries(form: form)
-        }.value
-        yearlySeries = series
+        yearlySeries = computeYearlySeries(form: form)
         yearlyLoading = false
     }
 
-    nonisolated private static func computeYearlySeries(form: MemurFormState) -> [YearlyCalcRow] {
+    private func computeYearlySeries(form: MemurFormState) -> [YearlyCalcRow] {
         let repo = EngineRepository.shared
         let detay = form.kadroDetay ?? ""
         let kadro: MKadroFullRow?
