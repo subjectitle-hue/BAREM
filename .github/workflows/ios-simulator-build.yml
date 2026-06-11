@@ -19,8 +19,9 @@ jobs:
           cp -f app/src/main/assets/engine/* ios/Barem/Barem/Resources/engine/
           cp -f app/src/main/assets/memur/* ios/Barem/Barem/Resources/memur/
 
-      - name: Build Barem for iOS Simulator (arm64)
+      - name: Build Barem for iOS Simulator
         run: |
+          set -o pipefail
           cd ios/Barem
           xcodebuild \
             -project Barem.xcodeproj \
@@ -28,18 +29,16 @@ jobs:
             -sdk iphonesimulator \
             -configuration Debug \
             -derivedDataPath build \
-            CODE_SIGNING_ALLOWED=NO \
-            ARCHS=arm64 \
-            ONLY_ACTIVE_ARCH=YES \
-            | xcpretty || true
+            CODE_SIGN_IDENTITY=- \
+            CODE_SIGNING_ALLOWED=YES \
+            CODE_SIGNING_REQUIRED=NO \
+            EXCLUDED_ARCHS[sdk=iphonesimulator*]=i386 \
+            ONLY_ACTIVE_ARCH=NO \
+            build 2>&1 | tee "$GITHUB_WORKSPACE/xcodebuild.log"
           APP=build/Build/Products/Debug-iphonesimulator/Barem.app
-          test -d "$APP"
           test -f "$APP/Barem"
-
-      - name: Sign for Appetize
-        run: |
-          APP=ios/Barem/build/Build/Products/Debug-iphonesimulator/Barem.app
-          codesign --force --sign - "$APP"
+          test -f "$APP/engine/h_engine_full.json"
+          file "$APP/Barem"
           lipo -info "$APP/Barem"
 
       - name: Package for Appetize
@@ -48,7 +47,15 @@ jobs:
           zip -ry "$GITHUB_WORKSPACE/Barem-appetize.zip" Barem.app
 
       - uses: actions/upload-artifact@v4
+        if: success()
         with:
           name: APPETIZE-UPLOAD-THIS-ZIP
           path: Barem-appetize.zip
           retention-days: 30
+
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: xcodebuild-log
+          path: xcodebuild.log
+          retention-days: 7
