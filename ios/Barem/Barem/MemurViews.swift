@@ -147,7 +147,7 @@ struct MemurWizardView: View {
                 model.restoreAndCalculate(restoreForm)
             }
         }
-        .onChange(of: premium.isPremium) { _, isOn in
+        .onChange(of: premium.isPremium) { isOn in
             if isOn { Task { await CalcSession.shared.refreshYearlySeriesIfNeeded() } }
         }
     }
