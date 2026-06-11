@@ -29,22 +29,17 @@ jobs:
             -sdk iphonesimulator \
             -configuration Debug \
             -derivedDataPath build \
-            CODE_SIGNING_ALLOWED=YES \
-            CODE_SIGNING_REQUIRED=NO \
-            CODE_SIGN_IDENTITY=- \
+            CODE_SIGNING_ALLOWED=NO \
             ONLY_ACTIVE_ARCH=NO \
             build 2>&1 | tee "$GITHUB_WORKSPACE/xcodebuild.log"
           APP=build/Build/Products/Debug-iphonesimulator/Barem.app
-          if [ ! -f "$APP/Barem" ]; then
-            {
-              echo "## xcodebuild basarisiz"
-              echo '```'
-              tail -80 "$GITHUB_WORKSPACE/xcodebuild.log"
-              echo '```'
-            } >> "$GITHUB_STEP_SUMMARY"
-            exit 1
-          fi
-          ls -la "$APP" | head -20
+          test -f "$APP/Barem"
+
+      - name: Sign for Appetize
+        run: |
+          APP=ios/Barem/build/Build/Products/Debug-iphonesimulator/Barem.app
+          codesign --force --sign - "$APP"
+          codesign --verify --verbose "$APP"
 
       - name: Package for Appetize
         run: |
