@@ -1,0 +1,281 @@
+Command line invocation:
+    /Applications/Xcode_16.4.app/Contents/Developer/usr/bin/xcodebuild -project Barem.xcodeproj -scheme Barem -sdk iphonesimulator -configuration Debug -derivedDataPath build CODE_SIGNING_ALLOWED=NO ONLY_ACTIVE_ARCH=NO build
+
+Build settings from command line:
+    CODE_SIGNING_ALLOWED = NO
+    ONLY_ACTIVE_ARCH = NO
+    SDKROOT = iphonesimulator18.5
+
+--- xcodebuild: WARNING: Using the first of multiple matching destinations:
+{ platform:iOS Simulator, id:dvtdevice-DVTiOSDeviceSimulatorPlaceholder-iphonesimulator:placeholder, name:Any iOS Simulator Device }
+{ platform:macOS, arch:arm64, variant:Designed for [iPad,iPhone], id:d921e6e96715cb6bacddc2e22042dc462772fa7f, name:My Mac }
+{ platform:iOS, id:dvtdevice-DVTiPhonePlaceholder-iphoneos:placeholder, name:Any iOS Device }
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (1 target)
+    Target 'Barem' in project 'Barem' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.5.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+Build description signature: d391198b9665a4b523b97cfc43d592f5
+Build description path: /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/XCBuildData/d391198b9665a4b523b97cfc43d592f5.xcbuilddata
+ClangStatCache /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.5.sdk /Users/runner/work/BAREM/BAREM/ios/Barem/build/SDKStatCaches.noindex/iphonesimulator18.5-22F76-96ae0914227b19deccb34b33ba7b5dea.sdkstatcache
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem/Barem.xcodeproj
+    /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.5.sdk -o /Users/runner/work/BAREM/BAREM/ios/Barem/build/SDKStatCaches.noindex/iphonesimulator18.5-22F76-96ae0914227b19deccb34b33ba7b5dea.sdkstatcache
+
+CreateBuildDirectory /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Products
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem/Barem.xcodeproj
+    builtin-create-build-directory /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Products
+
+CreateBuildDirectory /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem/Barem.xcodeproj
+    builtin-create-build-directory /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex
+
+WriteAuxiliaryFile /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem-31674c7caf3878e770ffb7bc3fd7372a-VFS-iphonesimulator/all-product-headers.yaml
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem/Barem.xcodeproj
+    write-file /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem-31674c7caf3878e770ffb7bc3fd7372a-VFS-iphonesimulator/all-product-headers.yaml
+
+CreateBuildDirectory /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Products/Debug-iphonesimulator
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem/Barem.xcodeproj
+    builtin-create-build-directory /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Products/Debug-iphonesimulator
+
+CreateBuildDirectory /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem/Barem.xcodeproj
+    builtin-create-build-directory /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator
+
+WriteAuxiliaryFile /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/x86_64/Barem_const_extract_protocols.json (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    write-file /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/x86_64/Barem_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/x86_64/Barem.SwiftFileList (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    write-file /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/x86_64/Barem.SwiftFileList
+
+WriteAuxiliaryFile /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/x86_64/Barem.SwiftConstValuesFileList (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    write-file /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/x86_64/Barem.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/x86_64/Barem.LinkFileList (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    write-file /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/x86_64/Barem.LinkFileList
+
+WriteAuxiliaryFile /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/x86_64/Barem-OutputFileMap.json (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    write-file /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/x86_64/Barem-OutputFileMap.json
+
+WriteAuxiliaryFile /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/arm64/Barem_const_extract_protocols.json (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    write-file /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/arm64/Barem_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/arm64/Barem.SwiftFileList (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    write-file /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/arm64/Barem.SwiftFileList
+
+WriteAuxiliaryFile /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/arm64/Barem.SwiftConstValuesFileList (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    write-file /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/arm64/Barem.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/arm64/Barem.LinkFileList (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    write-file /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/arm64/Barem.LinkFileList
+
+WriteAuxiliaryFile /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/arm64/Barem-OutputFileMap.json (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    write-file /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/arm64/Barem-OutputFileMap.json
+
+WriteAuxiliaryFile /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Barem.hmap (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    write-file /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Barem.hmap
+
+WriteAuxiliaryFile /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Barem.DependencyStaticMetadataFileList (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    write-file /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Barem.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Barem.DependencyMetadataFileList (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    write-file /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Barem.DependencyMetadataFileList
+
+WriteAuxiliaryFile /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Barem-project-headers.hmap (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    write-file /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Barem-project-headers.hmap
+
+WriteAuxiliaryFile /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Barem-own-target-headers.hmap (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    write-file /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Barem-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Barem-generated-files.hmap (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    write-file /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Barem-generated-files.hmap
+
+WriteAuxiliaryFile /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Barem-all-target-headers.hmap (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    write-file /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Barem-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Barem-all-non-framework-target-headers.hmap (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    write-file /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Barem-all-non-framework-target-headers.hmap
+
+MkDir /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Products/Debug-iphonesimulator/Barem.app (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    /bin/mkdir -p /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Products/Debug-iphonesimulator/Barem.app
+
+ProcessInfoPlistFile /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Products/Debug-iphonesimulator/Barem.app/Info.plist /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/Info.plist (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    builtin-infoPlistUtility /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/Info.plist -producttype com.apple.product-type.application -genpkginfo /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Products/Debug-iphonesimulator/Barem.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Products/Debug-iphonesimulator/Barem.app/Info.plist
+
+CpResource /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Products/Debug-iphonesimulator/Barem.app/memur /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/Resources/memur (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/Resources/memur /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Products/Debug-iphonesimulator/Barem.app
+
+CpResource /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Products/Debug-iphonesimulator/Barem.app/engine /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/Resources/engine (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-unsigned-binaries -strip-deterministic -strip-tool /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/Resources/engine /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Products/Debug-iphonesimulator/Barem.app
+
+SwiftDriver Barem normal arm64 com.apple.xcode.tools.swift.compiler (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    builtin-SwiftDriver -- /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name Barem -O -enforce-exclusivity\=checked @/Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/arm64/Barem.SwiftFileList -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.5.sdk -target arm64-apple-ios16.0-simulator -g -module-cache-path /Users/runner/work/BAREM/BAREM/ios/Barem/build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -swift-version 5 -I /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Products/Debug-iphonesimulator -F /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Products/Debug-iphonesimulator -emit-localized-strings -emit-localized-strings-path /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/arm64 -c -j3 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/runner/work/BAREM/BAREM/ios/Barem/build/SDKStatCaches.noindex/iphonesimulator18.5-22F76-96ae0914227b19deccb34b33ba7b5dea.sdkstatcache -output-file-map /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/arm64/Barem-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/arm64/Barem.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/runner/work/BAREM/BAREM/ios/Barem/build/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/arm64/Barem_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Barem-generated-files.hmap -Xcc -I/Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Barem-own-target-headers.hmap -Xcc -I/Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Barem-all-target-headers.hmap -Xcc -iquote -Xcc /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Barem-project-headers.hmap -Xcc -I/Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/DerivedSources-normal/arm64 -Xcc -I/Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/DerivedSources/arm64 -Xcc -I/Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/arm64/Barem-Swift.h -working-directory /Users/runner/work/BAREM/BAREM/ios/Barem -experimental-emit-module-separately -disable-cmo
+
+SwiftDriver Barem normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    builtin-SwiftDriver -- /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name Barem -O -enforce-exclusivity\=checked @/Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/x86_64/Barem.SwiftFileList -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.5.sdk -target x86_64-apple-ios16.0-simulator -g -module-cache-path /Users/runner/work/BAREM/BAREM/ios/Barem/build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -swift-version 5 -I /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Products/Debug-iphonesimulator -F /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Products/Debug-iphonesimulator -emit-localized-strings -emit-localized-strings-path /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/x86_64 -c -j3 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/runner/work/BAREM/BAREM/ios/Barem/build/SDKStatCaches.noindex/iphonesimulator18.5-22F76-96ae0914227b19deccb34b33ba7b5dea.sdkstatcache -output-file-map /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/x86_64/Barem-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/x86_64/Barem.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/runner/work/BAREM/BAREM/ios/Barem/build/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/x86_64/Barem_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Barem-generated-files.hmap -Xcc -I/Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Barem-own-target-headers.hmap -Xcc -I/Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Barem-all-target-headers.hmap -Xcc -iquote -Xcc /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Barem-project-headers.hmap -Xcc -I/Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/DerivedSources-normal/x86_64 -Xcc -I/Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/DerivedSources/x86_64 -Xcc -I/Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/x86_64/Barem-Swift.h -working-directory /Users/runner/work/BAREM/BAREM/ios/Barem -experimental-emit-module-separately -disable-cmo
+
+SwiftEmitModule normal x86_64 Emitting\ module\ for\ Barem (in target 'Barem' from project 'Barem')
+
+EmitSwiftModule normal x86_64 (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ Barem (in target 'Barem' from project 'Barem')
+
+EmitSwiftModule normal arm64 (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    
+
+SwiftCompile normal arm64 Compiling\ MemurEngine.swift,\ MemurCatalog.swift,\ CalcSession.swift,\ YearlyCalcEngine.swift,\ VdLookupRepository.swift,\ CalcHistoryRepository.swift /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/Engine/MemurEngine.swift /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/Engine/MemurCatalog.swift /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/CalcSession.swift /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/Engine/YearlyCalcEngine.swift /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/Engine/VdLookupRepository.swift /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/Engine/CalcHistoryRepository.swift (in target 'Barem' from project 'Barem')
+SwiftCompile normal arm64 /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/Engine/MemurEngine.swift (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    
+
+SwiftCompile normal arm64 /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/Engine/MemurCatalog.swift (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    
+
+SwiftCompile normal arm64 /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/CalcSession.swift (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    
+
+SwiftCompile normal arm64 /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/Engine/YearlyCalcEngine.swift (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    
+
+SwiftCompile normal arm64 /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/Engine/VdLookupRepository.swift (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    
+
+SwiftCompile normal arm64 /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/Engine/CalcHistoryRepository.swift (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    
+
+SwiftCompile normal x86_64 Compiling\ MemurEngine.swift,\ MemurCatalog.swift,\ CalcSession.swift,\ YearlyCalcEngine.swift,\ VdLookupRepository.swift,\ CalcHistoryRepository.swift /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/Engine/MemurEngine.swift /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/Engine/MemurCatalog.swift /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/CalcSession.swift /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/Engine/YearlyCalcEngine.swift /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/Engine/VdLookupRepository.swift /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/Engine/CalcHistoryRepository.swift (in target 'Barem' from project 'Barem')
+SwiftCompile normal x86_64 /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/Engine/MemurEngine.swift (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    
+
+SwiftCompile normal x86_64 /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/Engine/MemurCatalog.swift (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    
+
+SwiftCompile normal x86_64 /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/CalcSession.swift (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    
+
+SwiftCompile normal x86_64 /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/Engine/YearlyCalcEngine.swift (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    
+
+SwiftCompile normal x86_64 /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/Engine/VdLookupRepository.swift (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    
+
+SwiftCompile normal x86_64 /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/Engine/CalcHistoryRepository.swift (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    
+
+SwiftDriverJobDiscovery normal arm64 Emitting module for Barem (in target 'Barem' from project 'Barem')
+
+SwiftCompile normal arm64 Compiling\ BaremApp.swift,\ RootTabView.swift,\ WelcomeView.swift,\ GorusViews.swift,\ StatisticsViews.swift,\ MemurViews.swift,\ EngineModels.swift /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/BaremApp.swift /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/RootTabView.swift /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/WelcomeView.swift /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/GorusViews.swift /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/StatisticsViews.swift /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/MemurViews.swift /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/Engine/EngineModels.swift (in target 'Barem' from project 'Barem')
+Failed frontend command:
+/Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swift-frontend -frontend -c -primary-file /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/BaremApp.swift -primary-file /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/RootTabView.swift -primary-file /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/WelcomeView.swift -primary-file /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/GorusViews.swift -primary-file /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/StatisticsViews.swift -primary-file /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/MemurViews.swift -primary-file /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/Engine/EngineModels.swift /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/Engine/EngineRepository.swift /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/Engine/StatKind.swift /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/BaremComponents.swift /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/PremiumManager.swift /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/AnalyticsChartsView.swift /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/Engine/PeriodColumnResolver.swift /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/Engine/MemurEngine.swift /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/Engine/MemurCatalog.swift /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/CalcSession.swift /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/Engine/YearlyCalcEngine.swift /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/Engine/VdLookupRepository.swift /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/Engine/CalcHistoryRepository.swift -supplementary-output-file-map /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/arm64/supplementaryOutputs-2 -emit-localized-strings -emit-localized-strings-path /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/arm64 -target arm64-apple-ios16.0-simulator -Xllvm -aarch64-use-tbi -enable-objc-interop -sdk /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.5.sdk -I /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Products/Debug-iphonesimulator -F /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Products/Debug-iphonesimulator -no-color-diagnostics -g -debug-info-format\=dwarf -dwarf-version\=4 -module-cache-path /Users/runner/work/BAREM/BAREM/ios/Barem/build/ModuleCache.noindex -swift-version 5 -enforce-exclusivity\=checked -O -serialize-debugging-options -const-gather-protocols-file /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/arm64/Barem_const_extract_protocols.json -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -empty-abi-descriptor -validate-clang-modules-once -clang-build-session-file /Users/runner/work/BAREM/BAREM/ios/Barem/build/ModuleCache.noindex/Session.modulevalidation -Xcc -working-directory -Xcc /Users/runner/work/BAREM/BAREM/ios/Barem -resource-dir /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift -file-compilation-dir /Users/runner/work/BAREM/BAREM/ios/Barem -Xcc -ivfsstatcache -Xcc /Users/runner/work/BAREM/BAREM/ios/Barem/build/SDKStatCaches.noindex/iphonesimulator18.5-22F76-96ae0914227b19deccb34b33ba7b5dea.sdkstatcache -Xcc -I/Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Barem-generated-files.hmap -Xcc -I/Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Barem-own-target-headers.hmap -Xcc -I/Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Barem-all-target-headers.hmap -Xcc -iquote -Xcc /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Barem-project-headers.hmap -Xcc -I/Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/DerivedSources-normal/arm64 -Xcc -I/Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/DerivedSources/arm64 -Xcc -I/Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/DerivedSources -module-name Barem -frontend-parseable-output -disable-clang-spi -target-sdk-version 18.5 -target-sdk-name iphonesimulator18.5 -external-plugin-path /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/swift/host/plugins\#/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server -external-plugin-path /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/lib/swift/host/plugins\#/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/swift-plugin-server -in-process-plugin-server-path /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/libSwiftInProcPluginServer.dylib -plugin-path /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins -plugin-path /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/lib/swift/host/plugins -o /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/arm64/BaremApp.o -o /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/arm64/RootTabView.o -o /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/arm64/WelcomeView.o -o /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/arm64/GorusViews.o -o /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/arm64/StatisticsViews.o -o /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/arm64/MemurViews.o -o /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/arm64/EngineModels.o -index-unit-output-path /Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/arm64/BaremApp.o -index-unit-output-path /Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/arm64/RootTabView.o -index-unit-output-path /Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/arm64/WelcomeView.o -index-unit-output-path /Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/arm64/GorusViews.o -index-unit-output-path /Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/arm64/StatisticsViews.o -index-unit-output-path /Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/arm64/MemurViews.o -index-unit-output-path /Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/arm64/EngineModels.o
+
+SwiftCompile normal arm64 /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/BaremApp.swift (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    
+
+SwiftCompile normal arm64 /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/RootTabView.swift (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    
+
+SwiftCompile normal arm64 /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/WelcomeView.swift (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    
+
+SwiftCompile normal arm64 /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/GorusViews.swift (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    
+
+SwiftCompile normal arm64 /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/StatisticsViews.swift (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    
+/Users/runner/work/BAREM/BAREM/ios/Barem/Barem/StatisticsViews.swift:144:44: error: value of type 'Double' has no member 'map'
+                row.fxOutput?.yearlyAvgUsd.map { YearValueRow(year: row.year, yearlyValue: $0) }
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~ ^~~
+/Users/runner/work/BAREM/BAREM/ios/Barem/Barem/StatisticsViews.swift:153:52: error: value of type 'Double' has no member 'map'
+                row.fxOutput?.yearlyAvgGoldQuarter.map { YearValueRow(year: row.year, yearlyValue: $0) }
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^~~
+
+SwiftCompile normal arm64 /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/MemurViews.swift (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    
+/Users/runner/work/BAREM/BAREM/ios/Barem/Barem/MemurViews.swift:206:95: error: argument 'subtitle' must precede argument 'selected'
+                        BaremSelectionCard(title: unvan, selected: model.form.unvan == unvan, subtitle: nil)
+                                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+                                                         subtitle: nil,                     
+
+SwiftCompile normal arm64 /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/Engine/EngineModels.swift (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    
+
+SwiftDriverJobDiscovery normal x86_64 Emitting module for Barem (in target 'Barem' from project 'Barem')
+
+SwiftDriver\ Compilation\ Requirements Barem normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'Barem' from project 'Barem')
+    cd /Users/runner/work/BAREM/BAREM/ios/Barem
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name Barem -O -enforce-exclusivity\=checked @/Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/x86_64/Barem.SwiftFileList -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator18.5.sdk -target x86_64-apple-ios16.0-simulator -g -module-cache-path /Users/runner/work/BAREM/BAREM/ios/Barem/build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -swift-version 5 -I /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Products/Debug-iphonesimulator -F /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Products/Debug-iphonesimulator -emit-localized-strings -emit-localized-strings-path /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/x86_64 -c -j3 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/runner/work/BAREM/BAREM/ios/Barem/build/SDKStatCaches.noindex/iphonesimulator18.5-22F76-96ae0914227b19deccb34b33ba7b5dea.sdkstatcache -output-file-map /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/x86_64/Barem-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/x86_64/Barem.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/runner/work/BAREM/BAREM/ios/Barem/build/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/x86_64/Barem_const_extract_protocols.json -Xcc -iquote -Xcc /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Barem-generated-files.hmap -Xcc -I/Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Barem-own-target-headers.hmap -Xcc -I/Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Barem-all-target-headers.hmap -Xcc -iquote -Xcc /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Barem-project-headers.hmap -Xcc -I/Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/DerivedSources-normal/x86_64 -Xcc -I/Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/DerivedSources/x86_64 -Xcc -I/Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/runner/work/BAREM/BAREM/ios/Barem/build/Build/Intermediates.noindex/Barem.build/Debug-iphonesimulator/Barem.build/Objects-normal/x86_64/Barem-Swift.h -working-directory /Users/runner/work/BAREM/BAREM/ios/Barem -experimental-emit-module-separately -disable-cmo
+
+note: Disabling previews because SWIFT_VERSION is set and SWIFT_OPTIMIZATION_LEVEL=-O, expected -Onone (in target 'Barem' from project 'Barem')
+** BUILD FAILED **
+
+
+The following build commands failed:
+	SwiftCompile normal arm64 Compiling\ BaremApp.swift,\ RootTabView.swift,\ WelcomeView.swift,\ GorusViews.swift,\ StatisticsViews.swift,\ MemurViews.swift,\ EngineModels.swift /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/BaremApp.swift /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/RootTabView.swift /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/WelcomeView.swift /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/GorusViews.swift /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/StatisticsViews.swift /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/MemurViews.swift /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/Engine/EngineModels.swift (in target 'Barem' from project 'Barem')
+	SwiftCompile normal arm64 /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/StatisticsViews.swift (in target 'Barem' from project 'Barem')
+	SwiftCompile normal arm64 /Users/runner/work/BAREM/BAREM/ios/Barem/Barem/MemurViews.swift (in target 'Barem' from project 'Barem')
+	Building project Barem with scheme Barem and configuration Debug
+(4 failures)
