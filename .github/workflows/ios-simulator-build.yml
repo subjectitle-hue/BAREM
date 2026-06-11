@@ -1,0 +1,46 @@
+name: iOS Simulator Build (Appetize)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main, master]
+    paths:
+      - 'ios/**'
+      - '.github/workflows/ios-simulator-build.yml'
+
+jobs:
+  build-ios:
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Sync engine JSON (Android → iOS)
+        run: |
+          cp -f app/src/main/assets/engine/* ios/Barem/Barem/Resources/engine/
+          cp -f app/src/main/assets/memur/* ios/Barem/Barem/Resources/memur/
+
+      - name: Build Barem for iOS Simulator
+        run: |
+          cd ios/Barem
+          xcodebuild \
+            -project Barem.xcodeproj \
+            -scheme Barem \
+            -sdk iphonesimulator \
+            -configuration Debug \
+            -derivedDataPath build \
+            CODE_SIGNING_ALLOWED=NO \
+            ONLY_ACTIVE_ARCH=NO \
+            | xcpretty || true
+          test -d build/Build/Products/Debug-iphonesimulator/Barem.app
+
+      - name: Package for Appetize
+        run: |
+          mkdir -p dist
+          cd ios/Barem/build/Build/Products/Debug-iphonesimulator
+          zip -r "$GITHUB_WORKSPACE/dist/Barem-0.2.2-ios-simulator.zip" Barem.app
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Barem-0.2.2-ios-simulator
+          path: dist/Barem-0.2.2-ios-simulator.zip
+          retention-days: 30
