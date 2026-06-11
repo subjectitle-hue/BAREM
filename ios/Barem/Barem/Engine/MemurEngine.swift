@@ -73,12 +73,13 @@ struct BlResolver {
 
     private func applyYabanciDil(_ bl: inout [Int: Double], form: MemurFormState, year: String) {
         guard let level = form.yabanciDil else { return }
-        let vKey: String? = switch level.uppercased() {
-        case "A", "A1": "A1"
-        case "A2": "A2"
-        case "B": "B"
-        case "C": "C"
-        default: nil
+        let vKey: String?
+        switch level.uppercased() {
+        case "A", "A1": vKey = "A1"
+        case "A2": vKey = "A2"
+        case "B": vKey = "B"
+        case "C": vKey = "C"
+        default: vKey = nil
         }
         guard let vKey else { return }
         let points = repo.vLookupTable(key: vKey, year: year)
