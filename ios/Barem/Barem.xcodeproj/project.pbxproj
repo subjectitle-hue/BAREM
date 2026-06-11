@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* BaremApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* BaremApp.swift */; };
+		A10000000000000000000002 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* RootTabView.swift */; };
+		A10000000000000000000003 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* WelcomeView.swift */; };
+		A10000000000000000000004 /* GorusViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* GorusViews.swift */; };
+		A10000000000000000000005 /* StatisticsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* StatisticsViews.swift */; };
+		A10000000000000000000006 /* MemurViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000006 /* MemurViews.swift */; };
+		A10000000000000000000007 /* EngineModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000007 /* EngineModels.swift */; };
+		A10000000000000000000008 /* EngineRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000008 /* EngineRepository.swift */; };
+		A10000000000000000000009 /* StatKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000009 /* StatKind.swift */; };
+		A10000000000000000000010 /* engine in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000010 /* engine */; };
+		A10000000000000000000011 /* BaremComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000012 /* BaremComponents.swift */; };
+		A10000000000000000000012 /* PremiumManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000013 /* PremiumManager.swift */; };
+		A10000000000000000000013 /* AnalyticsChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000014 /* AnalyticsChartsView.swift */; };
+		A10000000000000000000014 /* PeriodColumnResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000015 /* PeriodColumnResolver.swift */; };
+		A10000000000000000000015 /* MemurEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000016 /* MemurEngine.swift */; };
+		A10000000000000000000016 /* MemurCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000017 /* MemurCatalog.swift */; };
+		A10000000000000000000017 /* memur in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000018 /* memur */; };
+		A10000000000000000000018 /* CalcSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000019 /* CalcSession.swift */; };
+		A10000000000000000000019 /* YearlyCalcEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000020 /* YearlyCalcEngine.swift */; };
+		A10000000000000000000020 /* VdLookupRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000021 /* VdLookupRepository.swift */; };
+		A10000000000000000000021 /* CalcHistoryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000022 /* CalcHistoryRepository.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A30000000000000000000001 /* Barem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Barem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000000000000000000001 /* BaremApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaremApp.swift; sourceTree = "<group>"; };
+		A20000000000000000000002 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		A20000000000000000000003 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		A20000000000000000000004 /* GorusViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GorusViews.swift; sourceTree = "<group>"; };
+		A20000000000000000000005 /* StatisticsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViews.swift; sourceTree = "<group>"; };
+		A20000000000000000000006 /* MemurViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemurViews.swift; sourceTree = "<group>"; };
+		A20000000000000000000007 /* EngineModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineModels.swift; sourceTree = "<group>"; };
+		A20000000000000000000008 /* EngineRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineRepository.swift; sourceTree = "<group>"; };
+		A20000000000000000000009 /* StatKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatKind.swift; sourceTree = "<group>"; };
+		A20000000000000000000010 /* engine */ = {isa = PBXFileReference; lastKnownFileType = folder; name = engine; path = Resources/engine; sourceTree = "<group>"; };
+		A20000000000000000000011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20000000000000000000012 /* BaremComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaremComponents.swift; sourceTree = "<group>"; };
+		A20000000000000000000013 /* PremiumManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumManager.swift; sourceTree = "<group>"; };
+		A20000000000000000000014 /* AnalyticsChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsChartsView.swift; sourceTree = "<group>"; };
+		A20000000000000000000015 /* PeriodColumnResolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodColumnResolver.swift; sourceTree = "<group>"; };
+		A20000000000000000000016 /* MemurEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemurEngine.swift; sourceTree = "<group>"; };
+		A20000000000000000000017 /* MemurCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemurCatalog.swift; sourceTree = "<group>"; };
+		A20000000000000000000018 /* memur */ = {isa = PBXFileReference; lastKnownFileType = folder; name = memur; path = Resources/memur; sourceTree = "<group>"; };
+		A20000000000000000000019 /* CalcSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcSession.swift; sourceTree = "<group>"; };
+		A20000000000000000000020 /* YearlyCalcEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearlyCalcEngine.swift; sourceTree = "<group>"; };
+		A20000000000000000000021 /* VdLookupRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VdLookupRepository.swift; sourceTree = "<group>"; };
+		A20000000000000000000022 /* CalcHistoryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcHistoryRepository.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A40000000000000000000003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A50000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A50000000000000000000002 /* Barem */,
+				A50000000000000000000003 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A50000000000000000000002 /* Barem */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000001 /* BaremApp.swift */,
+				A20000000000000000000002 /* RootTabView.swift */,
+				A20000000000000000000003 /* WelcomeView.swift */,
+				A20000000000000000000004 /* GorusViews.swift */,
+				A20000000000000000000005 /* StatisticsViews.swift */,
+				A20000000000000000000006 /* MemurViews.swift */,
+				A20000000000000000000012 /* BaremComponents.swift */,
+				A20000000000000000000013 /* PremiumManager.swift */,
+				A20000000000000000000014 /* AnalyticsChartsView.swift */,
+				A20000000000000000000019 /* CalcSession.swift */,
+				A50000000000000000000004 /* Engine */,
+				A20000000000000000000010 /* engine */,
+				A20000000000000000000018 /* memur */,
+				A20000000000000000000011 /* Info.plist */,
+			);
+			path = Barem;
+			sourceTree = "<group>";
+		};
+		A50000000000000000000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A30000000000000000000001 /* Barem.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A50000000000000000000004 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000007 /* EngineModels.swift */,
+				A20000000000000000000008 /* EngineRepository.swift */,
+				A20000000000000000000009 /* StatKind.swift */,
+				A20000000000000000000015 /* PeriodColumnResolver.swift */,
+				A20000000000000000000016 /* MemurEngine.swift */,
+				A20000000000000000000017 /* MemurCatalog.swift */,
+				A20000000000000000000020 /* YearlyCalcEngine.swift */,
+				A20000000000000000000021 /* VdLookupRepository.swift */,
+				A20000000000000000000022 /* CalcHistoryRepository.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A60000000000000000000001 /* Barem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80000000000000000000002 /* Build configuration list for PBXNativeTarget "Barem" */;
+			buildPhases = (
+				A40000000000000000000001 /* Sources */,
+				A40000000000000000000002 /* Resources */,
+				A40000000000000000000003 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Barem;
+			productName = Barem;
+			productReference = A30000000000000000000001 /* Barem.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A70000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = A80000000000000000000001 /* Build configuration list for PBXProject "Barem" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = tr;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				tr,
+				Base,
+			);
+			mainGroup = A50000000000000000000001;
+			productRefGroup = A50000000000000000000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A60000000000000000000001 /* Barem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A40000000000000000000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000010 /* engine in Resources */,
+				A10000000000000000000017 /* memur in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A40000000000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000000000000000000001 /* BaremApp.swift in Sources */,
+				A10000000000000000000002 /* RootTabView.swift in Sources */,
+				A10000000000000000000003 /* WelcomeView.swift in Sources */,
+				A10000000000000000000004 /* GorusViews.swift in Sources */,
+				A10000000000000000000005 /* StatisticsViews.swift in Sources */,
+				A10000000000000000000006 /* MemurViews.swift in Sources */,
+				A10000000000000000000007 /* EngineModels.swift in Sources */,
+				A10000000000000000000008 /* EngineRepository.swift in Sources */,
+				A10000000000000000000009 /* StatKind.swift in Sources */,
+				A10000000000000000000011 /* BaremComponents.swift in Sources */,
+				A10000000000000000000012 /* PremiumManager.swift in Sources */,
+				A10000000000000000000013 /* AnalyticsChartsView.swift in Sources */,
+				A10000000000000000000014 /* PeriodColumnResolver.swift in Sources */,
+				A10000000000000000000015 /* MemurEngine.swift in Sources */,
+				A10000000000000000000016 /* MemurCatalog.swift in Sources */,
+				A10000000000000000000018 /* CalcSession.swift in Sources */,
+				A10000000000000000000019 /* YearlyCalcEngine.swift in Sources */,
+				A10000000000000000000020 /* VdLookupRepository.swift in Sources */,
+				A10000000000000000000021 /* CalcHistoryRepository.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A90000000000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A90000000000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A90000000000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Barem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.2.2;
+				PRODUCT_BUNDLE_IDENTIFIER = tr.erdaldemir.barem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A90000000000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Barem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.2.2;
+				PRODUCT_BUNDLE_IDENTIFIER = tr.erdaldemir.barem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A80000000000000000000001 /* Build configuration list for PBXProject "Barem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90000000000000000000001 /* Debug */,
+				A90000000000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80000000000000000000002 /* Build configuration list for PBXNativeTarget "Barem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90000000000000000000003 /* Debug */,
+				A90000000000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A70000000000000000000001 /* Project object */;
+}

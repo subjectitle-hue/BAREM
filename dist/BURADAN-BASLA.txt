@@ -1,0 +1,14 @@
+BAREM 0.2.2
+===========
+
+ANDROID (Windows — hazır):
+  BAREM-0.2.2-debug.apk
+
+iOS (Mac yok — GitHub gerekir):
+  GITHUB-SETUP.md dosyasını okuyun
+
+Android Appetize:
+  https://appetize.io/upload → BAREM-0.2.2-debug.apk
+
+Tam yol:
+  C:\Users\MEMO\AndroidStudioProjects\EDMR\dist\BAREM-0.2.2-debug.apk

@@ -1,0 +1,263 @@
+{
+  "rows": [
+    {
+      "source": "v_derece_kademe",
+      "row": 68,
+      "label": "GÖSTERGE",
+      "cached": 1500.0,
+      "formula": "=IF(OR(BL72>0,BL91>0,BL105>0,BL113>0),VLOOKUP(A!$B$15,V!$F$1:$AK$11757,MATCH(BL$2,V!$F$2:$AK$2,0),0),0)"
+    },
+    {
+      "source": "v_derece_kademe",
+      "row": 69,
+      "label": "EK GÖSTERGE",
+      "cached": 0.0,
+      "formula": "=IFERROR(VLOOKUP(CONCATENATE($C69,\"-\",BL$67),V!$F$1:$AK$11757,MATCH(BL$2,V!$F$2:$AK$2,0),0),0)"
+    },
+    {
+      "source": "v_derece_kademe",
+      "row": 70,
+      "label": "TABAN",
+      "cached": 1000.0,
+      "formula": "=IF(OR(BL72>0,BL91>0,BL105>0,BL113>0),VLOOKUP($B70,V!$F$1:$AK$11757,MATCH(BL$2,V!$F$2:$AK$2,0),0),0)"
+    },
+    {
+      "source": "a_input",
+      "row": 71,
+      "label": "KIDEM",
+      "cached": 500.0,
+      "formula": "=IF(IF(OR(BL72>0,BL91>0,BL105>0,BL113>0),IF(A!$B$7>25,25,A!$B$7)*BM7,0)>500,500,IF(OR(BL72>0,BL91>0,BL105>0,BL113>0),IF(A!$B$7>25,25,A!$B$7)*BM7,0))"
+    },
+    {
+      "source": "v_derece_kademe",
+      "row": 72,
+      "label": "TAZMİNAT",
+      "cached": 45.0,
+      "formula": "=IFERROR(IF(A!$B$2=\"ASKER\",VLOOKUP($C72,V!$F$1:$AK$11757,MATCH(BL$2,V!$F$2:$AK$2,0),0),VLOOKUP(CONCATENATE($C72,\"-\",BL$67),V!$F$1:$AK$11757,MATCH(BL$2,V!$F$2:$AK$2,0),0)),0)"
+    },
+    {
+      "source": "v_derece_kademe",
+      "row": 73,
+      "label": "İLAVE TAZMİNAT (Prime Dahil Olan)",
+      "cached": 0.0,
+      "formula": "=IFERROR(VLOOKUP(CONCATENATE($C73,\"-\",BL$67),V!$F$1:$AK$11757,MATCH(BL$2,V!$F$2:$AK$2,0),0),0)"
+    },
+    {
+      "source": "v_derece_kademe",
+      "row": 74,
+      "label": "İLAVE TAZMİNAT (Prime Dahil Olmayan)",
+      "cached": 0.0,
+      "formula": "=IFERROR(VLOOKUP(CONCATENATE($C74,\"-\",BL$67),V!$F$1:$AK$11757,MATCH(BL$2,V!$F$2:$AK$2,0),0),0)"
+    },
+    {
+      "source": "v_derece_kademe",
+      "row": 75,
+      "label": "BÖLGESEL TAZMİNAT",
+      "cached": 0.0,
+      "formula": "=IFERROR(VLOOKUP(CONCATENATE($C75,\"-\",A!$B$16),V!$F$1:$AK$11757,MATCH(BL$2,V!$F$2:$AK$2,0),0),0)"
+    },
+    {
+      "source": "v_derece_kademe",
+      "row": 76,
+      "label": "TS TAZMİNAT-Prime Dahil",
+      "cached": 0.0,
+      "formula": "=IFERROR(VLOOKUP($C76,TS!$G$2:$Y$821,MATCH(H!BL$2,TS!$G$2:$Z$2,0),0),0)"
+    },
+    {
+      "source": "v_derece_kademe",
+      "row": 77,
+      "label": "TS TAZMİNAT-Prime Dahil Olmayan",
+      "cached": 0.0,
+      "formula": "=IFERROR(VLOOKUP($C77,TS!$G$2:$Y$821,MATCH(H!BL$2,TS!$G$2:$Z$2,0),0),0)"
+    },
+    {
+      "source": "v_derece_kademe",
+      "row": 78,
+      "label": "YAN ÖDEME",
+      "cached": 500.0,
+      "formula": "=IFERROR(IF(A!$B$2=\"ASKER\",VLOOKUP($C78,V!$F$1:$AK$11757,MATCH(BL$2,V!$F$2:$AK$2,0),0),VLOOKUP(CONCATENATE($C78,\"-\",BL$67),V!$F$1:$AK$11757,MATCH(BL$2,V!$F$2:$AK$2,0),0)),0)"
+    },
+    {
+      "source": "v_derece_kademe",
+      "row": 79,
+      "label": "İLAVE YAN ÖDEME",
+      "cached": 0.0,
+      "formula": "=IFERROR(VLOOKUP($C79,V!$F$1:$AK$11757,MATCH(BL$2,V!$F$2:$AK$2,0),0),0)"
+    },
+    {
+      "source": "v_derece_kademe",
+      "row": 80,
+      "label": "TS YAN ÖDEME",
+      "cached": 0.0,
+      "formula": "=IFERROR(VLOOKUP($C80,TS!$G$2:$Y$821,MATCH(H!BL$2,TS!$G$2:$Z$2,0),0),0)"
+    },
+    {
+      "source": "v_derece_kademe",
+      "row": 81,
+      "label": "EK ÖDEME",
+      "cached": 90.0,
+      "formula": "=IF(BL113>0,0,IFERROR(VLOOKUP(CONCATENATE($C81,\"-\",BL$67),V!$F$1:$AK$11757,MATCH(BL$2,V!$F$2:$AK$2,0),0),0))"
+    },
+    {
+      "source": "v_derece_kademe",
+      "row": 82,
+      "label": "EK-3 EK ÖDEME",
+      "cached": 0.0,
+      "formula": "=IFERROR(VLOOKUP($C82,V!$F$1:$AK$11757,MATCH(BL$2,V!$F$2:$AK$2,0),0),0)"
+    },
+    {
+      "source": "v_derece_kademe",
+      "row": 83,
+      "label": "İLAVE EK ÖDEME",
+      "cached": 0.0,
+      "formula": "=IFERROR(VLOOKUP($C83,V!$F$1:$AK$11757,MATCH(BL$2,V!$F$2:$AK$2,0),0),0)"
+    },
+    {
+      "source": "v_derece_kademe",
+      "row": 84,
+      "label": "TS EK ÖDEME",
+      "cached": 0.0,
+      "formula": "=IFERROR(VLOOKUP($C84,TS!$G$2:$Y$821,MATCH(H!BL$2,TS!$G$2:$Z$2,0),0),0)"
+    },
+    {
+      "source": "v_derece_kademe",
+      "row": 85,
+      "label": "TS İLAVE ÖDEME",
+      "cached": 0.0,
+      "formula": "=IFERROR(VLOOKUP($C85,TS!$G$2:$Y$821,MATCH(H!BL$2,TS!$G$2:$Z$2,0),0),0)"
+    },
+    {
+      "source": "v_derece_kademe",
+      "row": 86,
+      "label": "MAKAM",
+      "cached": 0.0,
+      "formula": "=IFERROR(VLOOKUP(CONCATENATE($C86,\"-\",BL$67),V!$F$1:$AK$11757,MATCH(BL$2,V!$F$2:$AK$2,0),0),0)"
+    },
+    {
+      "source": "v_derece_kademe",
+      "row": 87,
+      "label": "TEMSİL",
+      "cached": 0.0,
+      "formula": "=IFERROR(VLOOKUP(BL86,V!$F:$AK,MATCH(BL$2,V!$F$2:$AK$2,0),0),0)"
+    },
+    {
+      "source": "unknown",
+      "row": 88,
+      "formula": "=(IF((BL86=6000),(9000+BL86),(IF(AND((BL86<=5500),(BL86>=4500)),(7000+BL86),(IF(AND((BL86<=4000),(BL86>=1000)),(6000+BL86),(0)))))))",
+      "label": "GÖREV",
+      "cached": 0.0
+    },
+    {
+      "source": "v_derece_kademe",
+      "row": 89,
+      "label": "FAZLA ÇALIŞMA",
+      "cached": 0.0,
+      "formula": "=IFERROR(VLOOKUP($C89,V!$F$1:$AK$11757,MATCH(BL$2,V!$F$2:$AK$2,0),0),0)"
+    },
+    {
+      "source": "v_derece_kademe",
+      "row": 90,
+      "label": "ASAYİŞ TAZMİNATI",
+      "cached": 0.0,
+      "formula": "=IFERROR(VLOOKUP($C90,V!$F$1:$AK$11757,MATCH(BL$2,V!$F$2:$AK$2,0),0),0)"
+    },
+    {
+      "source": "v_derece_kademe",
+      "row": 91,
+      "label": "ÜNİVERSİTE ÖDENEĞİ",
+      "cached": 0.0,
+      "formula": "=IFERROR(VLOOKUP(CONCATENATE($C91,\"-\",BL$67),V!$F$1:$AK$11757,MATCH(BL$2,V!$F$2:$AK$2,0),0),0)"
+    },
+    {
+      "source": "v_derece_kademe",
+      "row": 92,
+      "label": "İDARİ GÖREV ÖDENEĞİ",
+      "cached": 0.0,
+      "formula": "=IFERROR(VLOOKUP($C92,V!$F$1:$AK$11757,MATCH(BL$2,V!$F$2:$AK$2,0),0),0)"
+    },
+    {
+      "source": "v_derece_kademe",
+      "row": 93,
+      "label": "EĞİTİM ÖĞRETİM ÖDENEĞİ",
+      "cached": 0.0,
+      "formula": "=IFERROR(VLOOKUP($C93,V!$F$1:$AK$11757,MATCH(BL$2,V!$F$2:$AK$2,0),0),0)"
+    },
+    {
+      "source": "v_derece_kademe",
+      "row": 94,
+      "label": "TS EĞİTİM ÖĞRETİM ÖDENEĞİ",
+      "cached": 0.0,
+      "formula": "=IFERROR(VLOOKUP($C94,TS!$G$2:$Y$821,MATCH(H!BL$2,TS!$G$2:$Z$2,0),0),0)"
+    },
+    {
+      "source": "v_derece_kademe",
+      "row": 95,
+      "label": "YÜKSEKÖĞRETİM TAZMİNATI",
+      "cached": 0.0,
+      "formula": "=IFERROR(VLOOKUP($C95,V!$F$1:$AK$11757,MATCH(BL$2,V!$F$2:$AK$2,0),0),0)"
+    },
+    {
+      "source": "v_derece_kademe",
+      "row": 96,
+      "label": "GELİTİRME ÖDENEĞİ",
+      "cached": 0.0,
+      "formula": "=IF(BL91>0,IFERROR(VLOOKUP(CONCATENATE(A!$B$13,\"-\",A!$B$14),V!$F$1:$AK$11757,MATCH(BL$2,V!$F$2:$AK$2,0),0),0),0)"
+    },
+    {
+      "source": "v_derece_kademe",
+      "row": 97,
+      "label": "SABİT EK ÖDEME",
+      "cached": 0.0,
+      "formula": "=IFERROR(VLOOKUP(CONCATENATE($C97,\"-\",BL$67),V!$F$1:$AK$11757,MATCH(BL$2,V!$F$2:$AK$2,0),0),0)"
+    },
+    {
+      "source": "v_derece_kademe",
+      "row": 98,
+      "label": "TS SABİT EK ÖDEME",
+      "cached": 0.0,
+      "formula": "=IFERROR(VLOOKUP($C98,TS!$G$2:$Y$821,MATCH(H!BL$2,TS!$G$2:$Z$2,0),0),0)"
+    },
+    {
+      "source": "v_derece_kademe",
+      "row": 99,
+      "label": "TABAN EK ÖDEME",
+      "cached": 0.0,
+      "formula": "=IFERROR(VLOOKUP($C99,V!$F$1:$AK$11757,MATCH(BL$2,V!$F$2:$AK$2,0),0),0)"
+    },
+    {
+      "source": "v_derece_kademe",
+      "row": 100,
+      "label": "TS TABAN EK ÖDEME",
+      "cached": 0.0,
+      "formula": "=IFERROR(VLOOKUP($C100,TS!$G$2:$Y$821,MATCH(H!BL$2,TS!$G$2:$Z$2,0),0),0)"
+    },
+    {
+      "source": "v_derece_kademe",
+      "row": 101,
+      "label": "TAVAN EK ÖDEME",
+      "cached": 0.0,
+      "formula": "=IFERROR(VLOOKUP($C101,V!$F$1:$AK$11757,MATCH(BL$2,V!$F$2:$AK$2,0),0),0)"
+    },
+    {
+      "source": "v_derece_kademe",
+      "row": 102,
+      "label": "TS TAVAN EK ÖDEME",
+      "cached": 0.0,
+      "formula": "=IFERROR(VLOOKUP($C102,TS!$G$2:$Y$821,MATCH(H!BL$2,TS!$G$2:$Z$2,0),0),0)"
+    },
+    {
+      "source": "v_derece_kademe",
+      "row": 103,
+      "label": "MESAİ DIŞI İLAVE EK ÖDEME",
+      "cached": 0.0,
+      "formula": "=IFERROR(VLOOKUP($C103,V!$F$1:$AK$11757,MATCH(BL$2,V!$F$2:$AK$2,0),0),0)*(BL101+BL102)/100"
+    },
+    {
+      "source": "tyo_tier",
+      "row": 127,
+      "formula": "=IF(BL68=0,0,IF(BL69>=BM22,BM29,IF(BL69>=BM23,BM30,IF(BL69>=BM24,BM31,IF(BL69>=BM25,BM32,IF(BL69>=BM26,BM33,IF(BL69>=BM27,BM34,BM35)))))))",
+      "label": "TYO",
+      "cached": 55.0
+    }
+  ]
+}

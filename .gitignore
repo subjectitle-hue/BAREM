@@ -1,0 +1,31 @@
+*.iml
+.gradle
+/local.properties
+.idea/
+/.idea/caches
+/.idea/libraries
+/.idea/workspace.xml
+emulator_screenshot.png
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+keystore.properties
+*.jks
+*.keystore
+
+# Android build çıktıları (APK dist/ altında tutulur)
+app/build/
+*.apk
+!dist/BAREM-0.2.2-debug.apk
+
+# iOS Xcode
+ios/Barem/build/
+ios/Barem/DerivedData/
+*.xcuserstate
+xcuserdata/
+
+# Cursor / IDE
+.cursor/

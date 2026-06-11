@@ -1,0 +1,281 @@
+{
+  "periodColumn": "BN",
+  "lines": [
+    {
+      "row": 68,
+      "label": "GÖSTERGE",
+      "bl": 1500,
+      "bn_formula": "=ROUND(BL68*BN$4,2)",
+      "bn_cached": 154.06
+    },
+    {
+      "row": 69,
+      "label": "EK GÖSTERGE",
+      "bl": 0,
+      "bn_formula": "=ROUND(BL69*BN$4,2)",
+      "bn_cached": 0.0
+    },
+    {
+      "row": 70,
+      "label": "TABAN",
+      "bl": 1000,
+      "bn_formula": "=ROUND(BL70*BN5,2)",
+      "bn_cached": 1607.65
+    },
+    {
+      "row": 71,
+      "label": "KIDEM",
+      "bl": 500,
+      "bn_formula": "=ROUND(BL71*BN$4,2)",
+      "bn_cached": 51.35
+    },
+    {
+      "row": 72,
+      "label": "TAZMİNAT",
+      "bl": 45,
+      "bn_formula": "=ROUND(BL72*BN$8/100,2)",
+      "bn_cached": 439.07
+    },
+    {
+      "row": 73,
+      "label": "İLAVE TAZMİNAT (Prime Dahil Olan)",
+      "bl": 0,
+      "bn_formula": "=ROUND(BL73*BN$8/100,2)",
+      "bn_cached": 0.0
+    },
+    {
+      "row": 74,
+      "label": "İLAVE TAZMİNAT (Prime Dahil Olmayan)",
+      "bl": 0,
+      "bn_formula": "=ROUND(BL74*BN$8/100,2)",
+      "bn_cached": 0.0
+    },
+    {
+      "row": 75,
+      "label": "BÖLGESEL TAZMİNAT",
+      "bl": 0,
+      "bn_formula": "=ROUND(BL75*BN$8/100,2)",
+      "bn_cached": 0.0
+    },
+    {
+      "row": 76,
+      "label": "TS TAZMİNAT-Prime Dahil",
+      "bl": 0,
+      "bn_formula": "=ROUND(BL76*BN$8/100,2)",
+      "bn_cached": 0.0
+    },
+    {
+      "row": 77,
+      "label": "TS TAZMİNAT-Prime Dahil Olmayan",
+      "bl": 0,
+      "bn_formula": "=ROUND(BL77*BN$8/100,2)",
+      "bn_cached": 0.0
+    },
+    {
+      "row": 78,
+      "label": "YAN ÖDEME",
+      "bl": 500,
+      "bn_formula": "=ROUND(BL78*BN$6,2)",
+      "bn_cached": 16.29
+    },
+    {
+      "row": 79,
+      "label": "İLAVE YAN ÖDEME",
+      "bl": 0,
+      "bn_formula": "=ROUND(BL79*BN$6,2)",
+      "bn_cached": 0.0
+    },
+    {
+      "row": 80,
+      "label": "TS YAN ÖDEME",
+      "bl": 0,
+      "bn_formula": "=ROUND(BL80*BN$6,2)",
+      "bn_cached": 0.0
+    },
+    {
+      "row": 81,
+      "label": "EK ÖDEME",
+      "bl": 90,
+      "bn_formula": "=ROUND(BL81*BN$8/100,2)",
+      "bn_cached": 878.14
+    },
+    {
+      "row": 82,
+      "label": "EK-3 EK ÖDEME",
+      "bl": 0,
+      "bn_formula": "=ROUND(BL82*BN$8/100,2)",
+      "bn_cached": 0.0
+    },
+    {
+      "row": 83,
+      "label": "İLAVE EK ÖDEME",
+      "bl": 0,
+      "bn_formula": "=ROUND(BL83*BN$8/100,2)",
+      "bn_cached": 0.0
+    },
+    {
+      "row": 84,
+      "label": "TS EK ÖDEME",
+      "bl": 0,
+      "bn_formula": "=ROUND(BL84*BN$8/100,2)",
+      "bn_cached": 0.0
+    },
+    {
+      "row": 85,
+      "label": "TS İLAVE ÖDEME",
+      "bl": 0,
+      "bn_formula": "=ROUND(BL85*BN$8/100,2)",
+      "bn_cached": 0.0
+    },
+    {
+      "row": 86,
+      "label": "MAKAM",
+      "bl": 0,
+      "bn_formula": "=ROUND(BL86*BN$4,2)",
+      "bn_cached": 0.0
+    },
+    {
+      "row": 87,
+      "label": "TEMSİL",
+      "bl": 0,
+      "bn_formula": "=IF(A!$B$2=\"MİAH\",BL87*BN$4,IF(BL87*BN$4*0.2>SUM(H!BN81:BN85,H!BN89:BN90,H!BN97:BN103),BL87*BN$4-SUM(H!BN81:BN85,H!BN89:BN90,H!BN97:BN103),BL87*BN$4*0.8))",
+      "bn_cached": 0.0
+    },
+    {
+      "row": 88,
+      "label": "GÖREV",
+      "bl": 0,
+      "bn_formula": "=IF(A!$B$2=\"MİAH\",BL88*BN$4,IF(BL88*BN$4*0.2>SUM(H!BN81:BN85,H!BN89:BN90,H!BN97:BN103)*BN$66,BL88*BN$4-SUM(H!BN81:BN85,H!BN89:BN90,H!BN97:BN103)*BN$66,BL88*BN$4*0.8))",
+      "bn_cached": 0.0
+    },
+    {
+      "row": 89,
+      "label": "FAZLA ÇALIŞMA",
+      "bl": 0,
+      "bn_formula": "=ROUND(BL89*BN$8/100,2)",
+      "bn_cached": 0.0
+    },
+    {
+      "row": 90,
+      "label": "ASAYİŞ TAZMİNATI",
+      "bl": 0,
+      "bn_formula": "=ROUND(BL90*BN$8/100,2)",
+      "bn_cached": 0.0
+    },
+    {
+      "row": 91,
+      "label": "ÜNİVERSİTE ÖDENEĞİ",
+      "bl": 0,
+      "bn_formula": "=ROUND(BL91*BN$8/100,2)",
+      "bn_cached": 0.0
+    },
+    {
+      "row": 92,
+      "label": "İDARİ GÖREV ÖDENEĞİ",
+      "bl": 0,
+      "bn_formula": "=(BN68+BN69)*BL92/100",
+      "bn_cached": 0.0
+    },
+    {
+      "row": 93,
+      "label": "EĞİTİM ÖĞRETİM ÖDENEĞİ",
+      "bl": 0,
+      "bn_formula": "=ROUND(BL93*BN$4,2)",
+      "bn_cached": 0.0
+    },
+    {
+      "row": 94,
+      "label": "TS EĞİTİM ÖĞRETİM ÖDENEĞİ",
+      "bl": 0,
+      "bn_formula": "=ROUND(BL94*BN$4,2)",
+      "bn_cached": 0.0
+    },
+    {
+      "row": 95,
+      "label": "YÜKSEKÖĞRETİM TAZMİNATI",
+      "bl": 0,
+      "bn_formula": "=ROUND(BL95*BN$8/100,2)",
+      "bn_cached": 0.0
+    },
+    {
+      "row": 96,
+      "label": "GELİTİRME ÖDENEĞİ",
+      "bl": 0,
+      "bn_formula": "=(BN68+BN69)*BL96/100",
+      "bn_cached": 0.0
+    },
+    {
+      "row": 97,
+      "label": "SABİT EK ÖDEME",
+      "bl": 0,
+      "bn_formula": "=ROUND(BL97*BN$8/100,2)",
+      "bn_cached": 0.0
+    },
+    {
+      "row": 98,
+      "label": "TS SABİT EK ÖDEME",
+      "bl": 0,
+      "bn_formula": "=ROUND(BL98*BN$8/100,2)",
+      "bn_cached": 0.0
+    },
+    {
+      "row": 99,
+      "label": "TABAN EK ÖDEME",
+      "bl": 0,
+      "bn_formula": "=ROUND(BL99*BN$8/100,2)",
+      "bn_cached": 0.0
+    },
+    {
+      "row": 100,
+      "label": "TS TABAN EK ÖDEME",
+      "bl": 0,
+      "bn_formula": "=ROUND(BL100*BN$8/100,2)",
+      "bn_cached": 0.0
+    },
+    {
+      "row": 101,
+      "label": "TAVAN EK ÖDEME",
+      "bl": 0,
+      "bn_formula": "=BL101*BN104/100",
+      "bn_cached": 0.0
+    },
+    {
+      "row": 102,
+      "label": "TS TAVAN EK ÖDEME",
+      "bl": 0,
+      "bn_formula": "=BL102*BN104/100",
+      "bn_cached": 0.0
+    },
+    {
+      "row": 103,
+      "label": "MESAİ DIŞI İLAVE EK ÖDEME",
+      "bl": 0,
+      "bn_formula": "=BL103*BN104/100",
+      "bn_cached": 0.0
+    },
+    {
+      "row": 178,
+      "label": "BRÜT",
+      "bn_formula": "=(BM132+BN132)*6",
+      "bn_cached": 36536.759999999995
+    },
+    {
+      "row": 179,
+      "label": "NET ELE GEÇEN",
+      "bn_formula": "=BN178-BN180-BN181",
+      "bn_cached": 30768.499991599994
+    },
+    {
+      "row": 180,
+      "label": "PRİM",
+      "bn_formula": "=SUM(BM136:BN138)*6",
+      "bn_cached": 4365.42
+    },
+    {
+      "row": 181,
+      "label": "VERGİ",
+      "bn_formula": "=SUM(BN142:BN165)",
+      "bn_cached": 1402.8400084000004
+    }
+  ]
+}

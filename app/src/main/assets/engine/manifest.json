@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "engineVersion": "2026.1.0",
+  "activeYear": 2026,
+  "ocakColumn": "CN",
+  "temmuzColumn": "CO",
+  "publishedAt": "2026-05-31",
+  "files": [
+    "h_engine_full.json",
+    "gv_brackets.json",
+    "h_formulas.json",
+    "a_year_columns.json",
+    "v_derece_kademe.json",
+    "m_h_lookup.json",
+    "ts_indicator_by_kod.json",
+    "ts_meslek_oran.json",
+    "m_kadro_full.json",
+    "index_table.json",
+    "fx_rates.json"
+  ],
+  "updateUrl": "https://esmerimsi.com/wp-json/Barem/v1/engine/manifest"
+}

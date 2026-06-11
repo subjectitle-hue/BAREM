@@ -1,0 +1,1255 @@
+[
+{
+"hizmetSinifi": "GİH",
+"barem": 1,
+"unvan": "MÜSTEŞAR",
+"detay": "",
+"derece": 1
+},
+{
+"hizmetSinifi": "GİH",
+"barem": 4,
+"unvan": "GENEL MÜDÜR",
+"detay": "",
+"derece": 1
+},
+{
+"hizmetSinifi": "GİH",
+"barem": 13,
+"unvan": "AYNİYAT MEMURU",
+"detay": "Lisans",
+"derece": 1
+},
+{
+"hizmetSinifi": "GİH",
+"barem": 13,
+"unvan": "AYNİYAT MEMURU",
+"detay": "Lisans",
+"derece": 2
+},
+{
+"hizmetSinifi": "GİH",
+"barem": 13,
+"unvan": "AYNİYAT MEMURU",
+"detay": "Lisans",
+"derece": 3
+},
+{
+"hizmetSinifi": "GİH",
+"barem": 13,
+"unvan": "AYNİYAT MEMURU",
+"detay": "Lisans",
+"derece": 4
+},
+{
+"hizmetSinifi": "GİH",
+"barem": 13,
+"unvan": "AYNİYAT MEMURU",
+"detay": "Lisans",
+"derece": 5
+},
+{
+"hizmetSinifi": "GİH",
+"barem": 13,
+"unvan": "AYNİYAT MEMURU",
+"detay": "Lisans",
+"derece": 6
+},
+{
+"hizmetSinifi": "GİH",
+"barem": 13,
+"unvan": "AYNİYAT MEMURU",
+"detay": "Lisans",
+"derece": 7
+},
+{
+"hizmetSinifi": "GİH",
+"barem": 13,
+"unvan": "AYNİYAT MEMURU",
+"detay": "Lisans",
+"derece": 8
+},
+{
+"hizmetSinifi": "GİH",
+"barem": 13,
+"unvan": "AYNİYAT MEMURU",
+"detay": "Lisans",
+"derece": 9
+},
+{
+"hizmetSinifi": "GİH",
+"barem": 13,
+"unvan": "AYNİYAT MEMURU",
+"detay": "Lise",
+"derece": 3
+},
+{
+"hizmetSinifi": "GİH",
+"barem": 13,
+"unvan": "AYNİYAT MEMURU",
+"detay": "Lise",
+"derece": 4
+},
+{
+"hizmetSinifi": "GİH",
+"barem": 13,
+"unvan": "AYNİYAT MEMURU",
+"detay": "Lise",
+"derece": 5
+},
+{
+"hizmetSinifi": "GİH",
+"barem": 13,
+"unvan": "AYNİYAT MEMURU",
+"detay": "Lise",
+"derece": 6
+},
+{
+"hizmetSinifi": "GİH",
+"barem": 13,
+"unvan": "AYNİYAT MEMURU",
+"detay": "Lise",
+"derece": 7
+},
+{
+"hizmetSinifi": "GİH",
+"barem": 13,
+"unvan": "AYNİYAT MEMURU",
+"detay": "Lise",
+"derece": 8
+},
+{
+"hizmetSinifi": "GİH",
+"barem": 13,
+"unvan": "AYNİYAT MEMURU",
+"detay": "Lise",
+"derece": 9
+},
+{
+"hizmetSinifi": "GİH",
+"barem": 13,
+"unvan": "AYNİYAT MEMURU",
+"detay": "Lise",
+"derece": 10
+},
+{
+"hizmetSinifi": "GİH",
+"barem": 13,
+"unvan": "AYNİYAT MEMURU",
+"detay": "Lise",
+"derece": 11
+},
+{
+"hizmetSinifi": "GİH",
+"barem": 13,
+"unvan": "AYNİYAT MEMURU",
+"detay": "Lise",
+"derece": 12
+},
+{
+"hizmetSinifi": "GİH",
+"barem": 13,
+"unvan": "AYNİYAT MEMURU",
+"detay": "Lise",
+"derece": 13
+},
+{
+"hizmetSinifi": "AHS",
+"barem": null,
+"unvan": "AVUKAT",
+"detay": "",
+"derece": 1
+},
+{
+"hizmetSinifi": "AHS",
+"barem": null,
+"unvan": "AVUKAT",
+"detay": "",
+"derece": 2
+},
+{
+"hizmetSinifi": "AHS",
+"barem": null,
+"unvan": "AVUKAT",
+"detay": "",
+"derece": 3
+},
+{
+"hizmetSinifi": "AHS",
+"barem": null,
+"unvan": "AVUKAT",
+"detay": "",
+"derece": 4
+},
+{
+"hizmetSinifi": "AHS",
+"barem": null,
+"unvan": "AVUKAT",
+"detay": "",
+"derece": 5
+},
+{
+"hizmetSinifi": "AHS",
+"barem": null,
+"unvan": "AVUKAT",
+"detay": "",
+"derece": 6
+},
+{
+"hizmetSinifi": "AHS",
+"barem": null,
+"unvan": "AVUKAT",
+"detay": "",
+"derece": 7
+},
+{
+"hizmetSinifi": "AHS",
+"barem": null,
+"unvan": "AVUKAT",
+"detay": "",
+"derece": 8
+},
+{
+"hizmetSinifi": "AHS",
+"barem": null,
+"unvan": "AVUKAT",
+"detay": "",
+"derece": 9
+},
+{
+"hizmetSinifi": "EÖHS",
+"barem": null,
+"unvan": "ÖĞRETMEN",
+"detay": "",
+"derece": 1
+},
+{
+"hizmetSinifi": "EÖHS",
+"barem": null,
+"unvan": "ÖĞRETMEN",
+"detay": "",
+"derece": 2
+},
+{
+"hizmetSinifi": "EÖHS",
+"barem": null,
+"unvan": "ÖĞRETMEN",
+"detay": "",
+"derece": 3
+},
+{
+"hizmetSinifi": "EÖHS",
+"barem": null,
+"unvan": "ÖĞRETMEN",
+"detay": "",
+"derece": 4
+},
+{
+"hizmetSinifi": "EÖHS",
+"barem": null,
+"unvan": "ÖĞRETMEN",
+"detay": "",
+"derece": 5
+},
+{
+"hizmetSinifi": "EÖHS",
+"barem": null,
+"unvan": "ÖĞRETMEN",
+"detay": "",
+"derece": 6
+},
+{
+"hizmetSinifi": "EÖHS",
+"barem": null,
+"unvan": "ÖĞRETMEN",
+"detay": "",
+"derece": 7
+},
+{
+"hizmetSinifi": "EÖHS",
+"barem": null,
+"unvan": "ÖĞRETMEN",
+"detay": "",
+"derece": 8
+},
+{
+"hizmetSinifi": "EÖHS",
+"barem": null,
+"unvan": "ÖĞRETMEN",
+"detay": "",
+"derece": 9
+},
+{
+"hizmetSinifi": "DHS",
+"barem": null,
+"unvan": "VAİZ",
+"detay": "",
+"derece": 1
+},
+{
+"hizmetSinifi": "DHS",
+"barem": null,
+"unvan": "VAİZ",
+"detay": "",
+"derece": 2
+},
+{
+"hizmetSinifi": "DHS",
+"barem": null,
+"unvan": "VAİZ",
+"detay": "",
+"derece": 3
+},
+{
+"hizmetSinifi": "DHS",
+"barem": null,
+"unvan": "VAİZ",
+"detay": "",
+"derece": 4
+},
+{
+"hizmetSinifi": "DHS",
+"barem": null,
+"unvan": "VAİZ",
+"detay": "",
+"derece": 5
+},
+{
+"hizmetSinifi": "DHS",
+"barem": null,
+"unvan": "VAİZ",
+"detay": "",
+"derece": 6
+},
+{
+"hizmetSinifi": "DHS",
+"barem": null,
+"unvan": "VAİZ",
+"detay": "",
+"derece": 7
+},
+{
+"hizmetSinifi": "DHS",
+"barem": null,
+"unvan": "VAİZ",
+"detay": "",
+"derece": 8
+},
+{
+"hizmetSinifi": "DHS",
+"barem": null,
+"unvan": "VAİZ",
+"detay": "",
+"derece": 9
+},
+{
+"hizmetSinifi": "EHS",
+"barem": null,
+"unvan": "POLİS MEMURU",
+"detay": "Lisans",
+"derece": 1
+},
+{
+"hizmetSinifi": "EHS",
+"barem": null,
+"unvan": "POLİS MEMURU",
+"detay": "Lisans",
+"derece": 2
+},
+{
+"hizmetSinifi": "EHS",
+"barem": null,
+"unvan": "POLİS MEMURU",
+"detay": "Lisans",
+"derece": 3
+},
+{
+"hizmetSinifi": "EHS",
+"barem": null,
+"unvan": "POLİS MEMURU",
+"detay": "Lisans",
+"derece": 4
+},
+{
+"hizmetSinifi": "EHS",
+"barem": null,
+"unvan": "POLİS MEMURU",
+"detay": "Lisans",
+"derece": 5
+},
+{
+"hizmetSinifi": "EHS",
+"barem": null,
+"unvan": "POLİS MEMURU",
+"detay": "Lisans",
+"derece": 6
+},
+{
+"hizmetSinifi": "EHS",
+"barem": null,
+"unvan": "POLİS MEMURU",
+"detay": "Lisans",
+"derece": 7
+},
+{
+"hizmetSinifi": "EHS",
+"barem": null,
+"unvan": "POLİS MEMURU",
+"detay": "Lisans",
+"derece": 8
+},
+{
+"hizmetSinifi": "EHS",
+"barem": null,
+"unvan": "POLİS MEMURU",
+"detay": "Önlisans",
+"derece": 1
+},
+{
+"hizmetSinifi": "EHS",
+"barem": null,
+"unvan": "POLİS MEMURU",
+"detay": "Önlisans",
+"derece": 2
+},
+{
+"hizmetSinifi": "EHS",
+"barem": null,
+"unvan": "POLİS MEMURU",
+"detay": "Önlisans",
+"derece": 3
+},
+{
+"hizmetSinifi": "EHS",
+"barem": null,
+"unvan": "POLİS MEMURU",
+"detay": "Önlisans",
+"derece": 4
+},
+{
+"hizmetSinifi": "EHS",
+"barem": null,
+"unvan": "POLİS MEMURU",
+"detay": "Önlisans",
+"derece": 5
+},
+{
+"hizmetSinifi": "EHS",
+"barem": null,
+"unvan": "POLİS MEMURU",
+"detay": "Önlisans",
+"derece": 6
+},
+{
+"hizmetSinifi": "EHS",
+"barem": null,
+"unvan": "POLİS MEMURU",
+"detay": "Önlisans",
+"derece": 7
+},
+{
+"hizmetSinifi": "EHS",
+"barem": null,
+"unvan": "POLİS MEMURU",
+"detay": "Önlisans",
+"derece": 8
+},
+{
+"hizmetSinifi": "EHS",
+"barem": null,
+"unvan": "POLİS MEMURU",
+"detay": "Önlisans",
+"derece": 9
+},
+{
+"hizmetSinifi": "EHS",
+"barem": null,
+"unvan": "POLİS MEMURU",
+"detay": "Lise",
+"derece": 3
+},
+{
+"hizmetSinifi": "EHS",
+"barem": null,
+"unvan": "POLİS MEMURU",
+"detay": "Lise",
+"derece": 4
+},
+{
+"hizmetSinifi": "EHS",
+"barem": null,
+"unvan": "POLİS MEMURU",
+"detay": "Lise",
+"derece": 5
+},
+{
+"hizmetSinifi": "EHS",
+"barem": null,
+"unvan": "POLİS MEMURU",
+"detay": "Lise",
+"derece": 6
+},
+{
+"hizmetSinifi": "EHS",
+"barem": null,
+"unvan": "POLİS MEMURU",
+"detay": "Lise",
+"derece": 7
+},
+{
+"hizmetSinifi": "EHS",
+"barem": null,
+"unvan": "POLİS MEMURU",
+"detay": "Lise",
+"derece": 8
+},
+{
+"hizmetSinifi": "EHS",
+"barem": null,
+"unvan": "POLİS MEMURU",
+"detay": "Lise",
+"derece": 9
+},
+{
+"hizmetSinifi": "EHS",
+"barem": null,
+"unvan": "POLİS MEMURU",
+"detay": "Lise",
+"derece": 10
+},
+{
+"hizmetSinifi": "EHS",
+"barem": null,
+"unvan": "POLİS MEMURU",
+"detay": "Lise",
+"derece": 11
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "DİŞ TABİBİ",
+"detay": "",
+"derece": 1
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "DİŞ TABİBİ",
+"detay": "",
+"derece": 2
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "DİŞ TABİBİ",
+"detay": "",
+"derece": 3
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "DİŞ TABİBİ",
+"detay": "",
+"derece": 4
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "DİŞ TABİBİ",
+"detay": "",
+"derece": 5
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "DİŞ TABİBİ",
+"detay": "",
+"derece": 6
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "DİŞ TABİBİ",
+"detay": "",
+"derece": 7
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "DİŞ TABİBİ",
+"detay": "",
+"derece": 8
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Mesleki Yüksek Öğrenim-Lisans",
+"derece": 1
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Mesleki Yüksek Öğrenim-Lisans",
+"derece": 2
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Mesleki Yüksek Öğrenim-Lisans",
+"derece": 3
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Mesleki Yüksek Öğrenim-Lisans",
+"derece": 4
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Mesleki Yüksek Öğrenim-Lisans",
+"derece": 5
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Mesleki Yüksek Öğrenim-Lisans",
+"derece": 6
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Mesleki Yüksek Öğrenim-Lisans",
+"derece": 7
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Mesleki Yüksek Öğrenim-Lisans",
+"derece": 8
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Normal Öğrenim-Lisans",
+"derece": 1
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Normal Öğrenim-Lisans",
+"derece": 2
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Normal Öğrenim-Lisans",
+"derece": 3
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Normal Öğrenim-Lisans",
+"derece": 4
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Normal Öğrenim-Lisans",
+"derece": 5
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Normal Öğrenim-Lisans",
+"derece": 6
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Normal Öğrenim-Lisans",
+"derece": 7
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Normal Öğrenim-Lisans",
+"derece": 8
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Normal Öğrenim-Lisans",
+"derece": 9
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Mesleki Yüksek Öğrenim-Önlisans",
+"derece": 1
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Mesleki Yüksek Öğrenim-Önlisans",
+"derece": 2
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Mesleki Yüksek Öğrenim-Önlisans",
+"derece": 3
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Mesleki Yüksek Öğrenim-Önlisans",
+"derece": 4
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Mesleki Yüksek Öğrenim-Önlisans",
+"derece": 5
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Mesleki Yüksek Öğrenim-Önlisans",
+"derece": 6
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Mesleki Yüksek Öğrenim-Önlisans",
+"derece": 7
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Mesleki Yüksek Öğrenim-Önlisans",
+"derece": 8
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Mesleki Yüksek Öğrenim-Önlisans",
+"derece": 9
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Mesleki Yüksek Öğrenim-Önlisans",
+"derece": 10
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Normal Öğrenim-Önlisans",
+"derece": 1
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Normal Öğrenim-Önlisans",
+"derece": 2
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Normal Öğrenim-Önlisans",
+"derece": 3
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Normal Öğrenim-Önlisans",
+"derece": 4
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Normal Öğrenim-Önlisans",
+"derece": 5
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Normal Öğrenim-Önlisans",
+"derece": 6
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Normal Öğrenim-Önlisans",
+"derece": 7
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Normal Öğrenim-Önlisans",
+"derece": 8
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Normal Öğrenim-Önlisans",
+"derece": 9
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Normal Öğrenim-Önlisans",
+"derece": 10
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Mesleki Öğrenim-Lise",
+"derece": 3
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Mesleki Öğrenim-Lise",
+"derece": 4
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Mesleki Öğrenim-Lise",
+"derece": 5
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Mesleki Öğrenim-Lise",
+"derece": 6
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Mesleki Öğrenim-Lise",
+"derece": 7
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Mesleki Öğrenim-Lise",
+"derece": 8
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Mesleki Öğrenim-Lise",
+"derece": 9
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Mesleki Öğrenim-Lise",
+"derece": 10
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Mesleki Öğrenim-Lise",
+"derece": 11
+},
+{
+"hizmetSinifi": "SHS",
+"barem": null,
+"unvan": "HEMŞİRE",
+"detay": "Mesleki Öğrenim-Lise",
+"derece": 12
+},
+{
+"hizmetSinifi": "THS",
+"barem": null,
+"unvan": "MÜHENDİS",
+"detay": "",
+"derece": 1
+},
+{
+"hizmetSinifi": "THS",
+"barem": null,
+"unvan": "MÜHENDİS",
+"detay": "",
+"derece": 2
+},
+{
+"hizmetSinifi": "THS",
+"barem": null,
+"unvan": "MÜHENDİS",
+"detay": "",
+"derece": 3
+},
+{
+"hizmetSinifi": "THS",
+"barem": null,
+"unvan": "MÜHENDİS",
+"detay": "",
+"derece": 4
+},
+{
+"hizmetSinifi": "THS",
+"barem": null,
+"unvan": "MÜHENDİS",
+"detay": "",
+"derece": 5
+},
+{
+"hizmetSinifi": "THS",
+"barem": null,
+"unvan": "MÜHENDİS",
+"detay": "",
+"derece": 6
+},
+{
+"hizmetSinifi": "THS",
+"barem": null,
+"unvan": "MÜHENDİS",
+"detay": "",
+"derece": 7
+},
+{
+"hizmetSinifi": "THS",
+"barem": null,
+"unvan": "MÜHENDİS",
+"detay": "",
+"derece": 8
+},
+{
+"hizmetSinifi": "THS",
+"barem": null,
+"unvan": "TEKNİKER",
+"detay": "",
+"derece": 1
+},
+{
+"hizmetSinifi": "THS",
+"barem": null,
+"unvan": "TEKNİKER",
+"detay": "",
+"derece": 2
+},
+{
+"hizmetSinifi": "THS",
+"barem": null,
+"unvan": "TEKNİKER",
+"detay": "",
+"derece": 3
+},
+{
+"hizmetSinifi": "THS",
+"barem": null,
+"unvan": "TEKNİKER",
+"detay": "",
+"derece": 4
+},
+{
+"hizmetSinifi": "THS",
+"barem": null,
+"unvan": "TEKNİKER",
+"detay": "",
+"derece": 5
+},
+{
+"hizmetSinifi": "THS",
+"barem": null,
+"unvan": "TEKNİKER",
+"detay": "",
+"derece": 6
+},
+{
+"hizmetSinifi": "THS",
+"barem": null,
+"unvan": "TEKNİKER",
+"detay": "",
+"derece": 7
+},
+{
+"hizmetSinifi": "THS",
+"barem": null,
+"unvan": "TEKNİKER",
+"detay": "",
+"derece": 8
+},
+{
+"hizmetSinifi": "THS",
+"barem": null,
+"unvan": "TEKNİKER",
+"detay": "",
+"derece": 9
+},
+{
+"hizmetSinifi": "THS",
+"barem": null,
+"unvan": "TEKNİKER",
+"detay": "",
+"derece": 10
+},
+{
+"hizmetSinifi": "THS",
+"barem": null,
+"unvan": "TOPOĞRAF",
+"detay": "",
+"derece": 1
+},
+{
+"hizmetSinifi": "YHS",
+"barem": null,
+"unvan": "HİZMETLİ",
+"detay": "Lisans",
+"derece": 1
+},
+{
+"hizmetSinifi": "YHS",
+"barem": null,
+"unvan": "HİZMETLİ",
+"detay": "Lisans",
+"derece": 2
+},
+{
+"hizmetSinifi": "YHS",
+"barem": null,
+"unvan": "HİZMETLİ",
+"detay": "Lisans",
+"derece": 3
+},
+{
+"hizmetSinifi": "YHS",
+"barem": null,
+"unvan": "HİZMETLİ",
+"detay": "Lisans",
+"derece": 4
+},
+{
+"hizmetSinifi": "YHS",
+"barem": null,
+"unvan": "HİZMETLİ",
+"detay": "Lisans",
+"derece": 5
+},
+{
+"hizmetSinifi": "YHS",
+"barem": null,
+"unvan": "HİZMETLİ",
+"detay": "Lisans",
+"derece": 6
+},
+{
+"hizmetSinifi": "YHS",
+"barem": null,
+"unvan": "HİZMETLİ",
+"detay": "Lisans",
+"derece": 7
+},
+{
+"hizmetSinifi": "YHS",
+"barem": null,
+"unvan": "HİZMETLİ",
+"detay": "Lisans",
+"derece": 8
+},
+{
+"hizmetSinifi": "YHS",
+"barem": null,
+"unvan": "HİZMETLİ",
+"detay": "Lisans",
+"derece": 9
+},
+{
+"hizmetSinifi": "YHS",
+"barem": null,
+"unvan": "HİZMETLİ",
+"detay": "Önlisans",
+"derece": 1
+},
+{
+"hizmetSinifi": "YHS",
+"barem": null,
+"unvan": "HİZMETLİ",
+"detay": "Önlisans",
+"derece": 2
+},
+{
+"hizmetSinifi": "YHS",
+"barem": null,
+"unvan": "HİZMETLİ",
+"detay": "Önlisans",
+"derece": 3
+},
+{
+"hizmetSinifi": "YHS",
+"barem": null,
+"unvan": "HİZMETLİ",
+"detay": "Önlisans",
+"derece": 4
+},
+{
+"hizmetSinifi": "YHS",
+"barem": null,
+"unvan": "HİZMETLİ",
+"detay": "Önlisans",
+"derece": 5
+},
+{
+"hizmetSinifi": "YHS",
+"barem": null,
+"unvan": "HİZMETLİ",
+"detay": "Önlisans",
+"derece": 6
+},
+{
+"hizmetSinifi": "YHS",
+"barem": null,
+"unvan": "HİZMETLİ",
+"detay": "Önlisans",
+"derece": 7
+},
+{
+"hizmetSinifi": "YHS",
+"barem": null,
+"unvan": "HİZMETLİ",
+"detay": "Önlisans",
+"derece": 8
+},
+{
+"hizmetSinifi": "YHS",
+"barem": null,
+"unvan": "HİZMETLİ",
+"detay": "Önlisans",
+"derece": 9
+},
+{
+"hizmetSinifi": "YHS",
+"barem": null,
+"unvan": "HİZMETLİ",
+"detay": "Önlisans",
+"derece": 10
+},
+{
+"hizmetSinifi": "YHS",
+"barem": null,
+"unvan": "HİZMETLİ",
+"detay": "Lise",
+"derece": 3
+},
+{
+"hizmetSinifi": "YHS",
+"barem": null,
+"unvan": "HİZMETLİ",
+"detay": "Lise",
+"derece": 4
+},
+{
+"hizmetSinifi": "YHS",
+"barem": null,
+"unvan": "HİZMETLİ",
+"detay": "Lise",
+"derece": 5
+},
+{
+"hizmetSinifi": "YHS",
+"barem": null,
+"unvan": "HİZMETLİ",
+"detay": "Lise",
+"derece": 6
+},
+{
+"hizmetSinifi": "YHS",
+"barem": null,
+"unvan": "HİZMETLİ",
+"detay": "Lise",
+"derece": 7
+},
+{
+"hizmetSinifi": "YHS",
+"barem": null,
+"unvan": "HİZMETLİ",
+"detay": "Lise",
+"derece": 8
+},
+{
+"hizmetSinifi": "YHS",
+"barem": null,
+"unvan": "HİZMETLİ",
+"detay": "Lise",
+"derece": 9
+},
+{
+"hizmetSinifi": "YHS",
+"barem": null,
+"unvan": "HİZMETLİ",
+"detay": "Lise",
+"derece": 10
+},
+{
+"hizmetSinifi": "YHS",
+"barem": null,
+"unvan": "HİZMETLİ",
+"detay": "Lise",
+"derece": 11
+},
+{
+"hizmetSinifi": "YHS",
+"barem": null,
+"unvan": "HİZMETLİ",
+"detay": "Lise",
+"derece": 12
+},
+{
+"hizmetSinifi": "YHS",
+"barem": null,
+"unvan": "HİZMETLİ",
+"detay": "Lise",
+"derece": 13
+}
+]

@@ -1,0 +1,550 @@
+{
+  "a_inputs": {
+    "B1": null,
+    "B2": "YHS",
+    "B3": "HİZMETLİ",
+    "B4": "Lisans",
+    "B5": 1,
+    "B6": 4,
+    "B7": 25,
+    "B8": null,
+    "B9": null,
+    "B10": null,
+    "B11": null,
+    "B12": "YOK",
+    "B13": null,
+    "B14": null,
+    "B15": "1/4",
+    "B16": null,
+    "B17": "HİZMETLİ-Lisans-1",
+    "B18": null,
+    "B19": null,
+    "B20": null,
+    "B21": null,
+    "B22": null,
+    "B23": null,
+    "B24": null
+  },
+  "brut_cn": {
+    "branch": "68-103",
+    "baseSum": 45669.26,
+    "extras118_126": 22157.36,
+    "calculated132": 67826.62,
+    "actual132": 67826.62,
+    "match": true,
+    "nonzero68_103": {
+      "68": 2081.81,
+      "69": 832.72,
+      "70": 22722.79,
+      "71": 693.94,
+      "72": 5933.15,
+      "76": 1318.48,
+      "78": 220.07,
+      "81": 11866.3
+    },
+    "nonzero118_126": {
+      "120": 22157.36
+    },
+    "nonzero105_131": {
+      "120": 22157.36,
+      "127": 7251.63
+    }
+  },
+  "brut_co": {
+    "branch": "68-103",
+    "baseSum": 48866.1,
+    "extras118_126": 23708.38,
+    "calculated132": 72574.48,
+    "actual132": 72574.48,
+    "match": true,
+    "nonzero68_103": {
+      "68": 2227.53,
+      "69": 891.01,
+      "70": 24313.39,
+      "71": 742.51,
+      "72": 6348.47,
+      "76": 1410.77,
+      "78": 235.48,
+      "81": 12696.94
+    },
+    "nonzero118_126": {
+      "120": 23708.38
+    },
+    "nonzero105_131": {
+      "120": 23708.38,
+      "127": 7759.24
+    }
+  },
+  "co132_formula": "=IF(CO105>0,CO105+CO106+CO107+CO108+CO109,IF(CO113>0,CO113+CO114+CO115+CO116+CO117,IF(CO128>0,CO128+CO129+CO130+CO131,SUM(CO68:CO71,CO72:CO103))))+SUM(CO118:CO126)",
+  "co166_formula": "=ROUND(CN$132-CN$136-CN$137-CN$138-CO142-CO154,2)",
+  "monthly_nets_co166_177": {
+    "CO166": 62189.25,
+    "CO167": 62189.25,
+    "CO168": 62189.25,
+    "CO169": 62189.25,
+    "CO170": 62189.25,
+    "CO171": 62189.25,
+    "CO172": 66524.95,
+    "CO173": 66524.95,
+    "CO174": 66524.95,
+    "CO175": 66524.95,
+    "CO176": 66524.95,
+    "CO177": 66524.95
+  },
+  "monthly_nets_cn166_177": {
+    "CN166": null,
+    "CN167": null,
+    "CN168": null,
+    "CN169": null,
+    "CN170": null,
+    "CN171": null,
+    "CN172": null,
+    "CN173": null,
+    "CN174": null,
+    "CN175": null,
+    "CN176": null,
+    "CN177": null
+  },
+  "totals": {
+    "CO178": 842406.5999999999,
+    "CO179": 772285.2063059999
+  },
+  "m_hemşire_rows": [
+    [
+      "SHS",
+      "None",
+      "HEMŞİRE",
+      "Mesleki Yüksek Öğrenim-Lisans",
+      "1",
+      "HEMŞİRE-Mesleki Yüksek Öğrenim-Lisans-1",
+      "1/1",
+      "657-I-III-b-1",
+      "1000",
+      "25",
+      "657-II-F-6-a-1",
+      "None"
+    ],
+    [
+      "SHS",
+      "None",
+      "HEMŞİRE",
+      "Mesleki Yüksek Öğrenim-Lisans",
+      "2",
+      "HEMŞİRE-Mesleki Yüksek Öğrenim-Lisans-2",
+      "2/1",
+      "657-I-III-b-1",
+      "1000",
+      "18",
+      "657-II-F-6-a-1",
+      "None"
+    ],
+    [
+      "SHS",
+      "None",
+      "HEMŞİRE",
+      "Mesleki Yüksek Öğrenim-Lisans",
+      "3",
+      "HEMŞİRE-Mesleki Yüksek Öğrenim-Lisans-3",
+      "3/1",
+      "657-I-III-b-1",
+      "1000",
+      "15",
+      "657-II-F-6-a-1",
+      "None"
+    ],
+    [
+      "SHS",
+      "None",
+      "HEMŞİRE",
+      "Mesleki Yüksek Öğrenim-Lisans",
+      "4",
+      "HEMŞİRE-Mesleki Yüksek Öğrenim-Lisans-4",
+      "4/1",
+      "657-I-III-b-1",
+      "1000",
+      "12",
+      "657-II-F-6-a-1",
+      "None"
+    ],
+    [
+      "SHS",
+      "None",
+      "HEMŞİRE",
+      "Mesleki Yüksek Öğrenim-Lisans",
+      "5",
+      "HEMŞİRE-Mesleki Yüksek Öğrenim-Lisans-5",
+      "5/1",
+      "657-I-III-b-1",
+      "1000",
+      "9",
+      "657-II-F-6-a-1",
+      "None"
+    ],
+    [
+      "SHS",
+      "None",
+      "HEMŞİRE",
+      "Mesleki Yüksek Öğrenim-Lisans",
+      "6",
+      "HEMŞİRE-Mesleki Yüksek Öğrenim-Lisans-6",
+      "6/1",
+      "657-I-III-b-1",
+      "1000",
+      "6",
+      "657-II-F-6-a-1",
+      "None"
+    ],
+    [
+      "SHS",
+      "None",
+      "HEMŞİRE",
+      "Mesleki Yüksek Öğrenim-Lisans",
+      "7",
+      "HEMŞİRE-Mesleki Yüksek Öğrenim-Lisans-7",
+      "7/1",
+      "657-I-III-b-1",
+      "1000",
+      "3",
+      "657-II-F-6-a-1",
+      "None"
+    ],
+    [
+      "SHS",
+      "None",
+      "HEMŞİRE",
+      "Mesleki Yüksek Öğrenim-Lisans",
+      "8",
+      "HEMŞİRE-Mesleki Yüksek Öğrenim-Lisans-8",
+      "8/1",
+      "657-I-III-b-1",
+      "1000",
+      "0",
+      "657-II-F-6-a-1",
+      "None"
+    ],
+    [
+      "SHS",
+      "None",
+      "HEMŞİRE",
+      "Normal Öğrenim-Lisans",
+      "1",
+      "HEMŞİRE-Normal Öğrenim-Lisans-1",
+      "1/1",
+      "657-I-III-b-2",
+      "1000",
+      "25",
+      "657-II-F-6-b",
+      "None"
+    ],
+    [
+      "SHS",
+      "None",
+      "HEMŞİRE",
+      "Normal Öğrenim-Lisans",
+      "2",
+      "HEMŞİRE-Normal Öğrenim-Lisans-2",
+      "2/1",
+      "657-I-III-b-2",
+      "1000",
+      "21",
+      "657-II-F-6-b",
+      "None"
+    ],
+    [
+      "SHS",
+      "None",
+      "HEMŞİRE",
+      "Normal Öğrenim-Lisans",
+      "3",
+      "HEMŞİRE-Normal Öğrenim-Lisans-3",
+      "3/1",
+      "657-I-III-b-2",
+      "1000",
+      "18",
+      "657-II-F-6-b",
+      "None"
+    ],
+    [
+      "SHS",
+      "None",
+      "HEMŞİRE",
+      "Normal Öğrenim-Lisans",
+      "4",
+      "HEMŞİRE-Normal Öğrenim-Lisans-4",
+      "4/1",
+      "657-I-III-b-2",
+      "1000",
+      "15",
+      "657-II-F-6-b",
+      "None"
+    ],
+    [
+      "SHS",
+      "None",
+      "HEMŞİRE",
+      "Normal Öğrenim-Lisans",
+      "5",
+      "HEMŞİRE-Normal Öğrenim-Lisans-5",
+      "5/1",
+      "657-I-III-b-2",
+      "1000",
+      "12",
+      "657-II-F-6-b",
+      "None"
+    ],
+    [
+      "SHS",
+      "None",
+      "HEMŞİRE",
+      "Normal Öğrenim-Lisans",
+      "6",
+      "HEMŞİRE-Normal Öğrenim-Lisans-6",
+      "6/1",
+      "657-I-III-b-2",
+      "1000",
+      "9",
+      "657-II-F-6-b",
+      "None"
+    ],
+    [
+      "SHS",
+      "None",
+      "HEMŞİRE",
+      "Normal Öğrenim-Lisans",
+      "7",
+      "HEMŞİRE-Normal Öğrenim-Lisans-7",
+      "7/1",
+      "657-I-III-b-2",
+      "1000",
+      "6",
+      "657-II-F-6-b",
+      "None"
+    ],
+    [
+      "SHS",
+      "None",
+      "HEMŞİRE",
+      "Normal Öğrenim-Lisans",
+      "8",
+      "HEMŞİRE-Normal Öğrenim-Lisans-8",
+      "8/1",
+      "657-I-III-b-2",
+      "1000",
+      "3",
+      "657-II-F-6-b",
+      "None"
+    ],
+    [
+      "SHS",
+      "None",
+      "HEMŞİRE",
+      "Normal Öğrenim-Lisans",
+      "9",
+      "HEMŞİRE-Normal Öğrenim-Lisans-9",
+      "9/1",
+      "657-I-III-b-2",
+      "1000",
+      "0",
+      "657-II-F-6-b",
+      "None"
+    ],
+    [
+      "SHS",
+      "None",
+      "HEMŞİRE",
+      "Mesleki Yüksek Öğrenim-Önlisans",
+      "1",
+      "HEMŞİRE-Mesleki Yüksek Öğrenim-Önlisans-1",
+      "1/1",
+      "657-I-III-b-1",
+      "1000",
+      "25",
+      "657-II-F-6-a-2",
+      "None"
+    ],
+    [
+      "SHS",
+      "None",
+      "HEMŞİRE",
+      "Mesleki Yüksek Öğrenim-Önlisans",
+      "2",
+      "HEMŞİRE-Mesleki Yüksek Öğrenim-Önlisans-2",
+      "2/1",
+      "657-I-III-b-1",
+      "1000",
+      "23",
+      "657-II-F-6-a-2",
+      "None"
+    ],
+    [
+      "SHS",
+      "None",
+      "HEMŞİRE",
+      "Mesleki Yüksek Öğrenim-Önlisans",
+      "3",
+      "HEMŞİRE-Mesleki Yüksek Öğrenim-Önlisans-3",
+      "3/1",
+      "657-I-III-b-1",
+      "1000",
+      "20",
+      "657-II-F-6-a-2",
+      "None"
+    ]
+  ],
+  "h_cm_nonzero": [
+    {
+      "row": 68,
+      "label": "GÖSTERGE",
+      "cm": 1500.0,
+      "cn": 2081.81,
+      "co": 2227.53,
+      "co_formula": "=ROUND(CM68*CO$4,2)"
+    },
+    {
+      "row": 69,
+      "label": "EK GÖSTERGE",
+      "cm": 600.0,
+      "cn": 832.72,
+      "co": 891.01,
+      "co_formula": "=ROUND(CM69*CO$4,2)"
+    },
+    {
+      "row": 70,
+      "label": "TABAN",
+      "cm": 1000.0,
+      "cn": 22722.79,
+      "co": 24313.39,
+      "co_formula": "=ROUND(CM70*CO5,2)"
+    },
+    {
+      "row": 71,
+      "label": "KIDEM",
+      "cm": 500.0,
+      "cn": 693.94,
+      "co": 742.51,
+      "co_formula": "=ROUND(CM71*CO$4,2)"
+    },
+    {
+      "row": 72,
+      "label": "TAZMİNAT",
+      "cm": 45.0,
+      "cn": 5933.15,
+      "co": 6348.47,
+      "co_formula": "=ROUND(CM72*CO$8/100,2)"
+    },
+    {
+      "row": 76,
+      "label": "TS TAZMİNAT-Prime Dahil",
+      "cm": 10.0,
+      "cn": 1318.48,
+      "co": 1410.77,
+      "co_formula": "=ROUND(CM76*CO$8/100,2)"
+    },
+    {
+      "row": 78,
+      "label": "YAN ÖDEME",
+      "cm": 500.0,
+      "cn": 220.07,
+      "co": 235.48,
+      "co_formula": "=ROUND(CM78*CO$6,2)"
+    },
+    {
+      "row": 81,
+      "label": "EK ÖDEME",
+      "cm": 90.0,
+      "cn": 11866.3,
+      "co": 12696.94,
+      "co_formula": "=ROUND(CM81*CO$8/100,2)"
+    },
+    {
+      "row": 110,
+      "label": "KISTAS AYLIK GÖSTERGESİ",
+      "cm": 128200.00000000001,
+      "cn": 0.0,
+      "co": 0.0,
+      "co_formula": "=ROUND(IF(CM105=0,0,CM110*CO$4),2)"
+    },
+    {
+      "row": 111,
+      "label": "KISTAS AYLIK GV MATRAHI",
+      "cm": 84600.0,
+      "cn": 0.0,
+      "co": 0.0,
+      "co_formula": "=ROUND(CM111*CM105/100*CO4,2)"
+    },
+    {
+      "row": 112,
+      "label": "KISTAS AYLIK SGK",
+      "cm": 93426.91,
+      "cn": 0.0,
+      "co": 0.0,
+      "co_formula": "=ROUND(CM112*(CM105/100)*CO4,2)"
+    },
+    {
+      "row": 120,
+      "label": "İLAVE ÖDEME",
+      "cm": 15965.0,
+      "cn": 22157.36,
+      "co": 23708.38,
+      "co_formula": "=ROUND(CM120*CO$4,2)"
+    },
+    {
+      "row": 122,
+      "label": "TOPLU SÖZLEŞME İKRAMİYESİ",
+      "cm": 707.0,
+      "cn": 0.0,
+      "co": 0.0,
+      "co_formula": "=IF(A!$B$12=\"VAR\",ROUND(CM122*CO$4,2),0)"
+    },
+    {
+      "row": 124,
+      "label": "Aile Yardımı",
+      "cm": 2273.0,
+      "cn": 0.0,
+      "co": 0.0,
+      "co_formula": "=IF(A!$B$8=\"Evli-Eşi Çalışmayan\",ROUND(CM124*CO$4,2),0)"
+    },
+    {
+      "row": 125,
+      "label": "6 yaş +",
+      "cm": 250.0,
+      "cn": 0.0,
+      "co": 0.0,
+      "co_formula": "=ROUND(CM125*CO$4,2)*A!$B$9"
+    },
+    {
+      "row": 126,
+      "label": "6 yaş-",
+      "cm": 500.0,
+      "cn": 0.0,
+      "co": 0.0,
+      "co_formula": "=ROUND(CM126*CO$4,2)*A!$B$10"
+    },
+    {
+      "row": 127,
+      "label": "TYO",
+      "cm": 55.0,
+      "cn": 7251.63,
+      "co": 7759.24,
+      "co_formula": "=ROUND(CM127*CO$8/100,2)"
+    }
+  ],
+  "h_co_formulas_key": {
+    "CO132": "=IF(CO105>0,CO105+CO106+CO107+CO108+CO109,IF(CO113>0,CO113+CO114+CO115+CO116+CO117,IF(CO128>0,CO128+CO129+CO130+CO131,SUM(CO68:CO71,CO72:CO103))))+SUM(CO118:CO126)",
+    "CO140": "=ROUND(IF(CO113>0,CO113+CO114,IF(CO111>0,CO111,IF(CO128>0,CO128,(CO68+CO69+CO70+CO71+CO78+CO79+CO80+CO97+CO98+CO99+CO100+CO101+CO102+CO103+CO118))))-CO137-CO136-CO138-CO51,2)",
+    "CO141": "=IF(CO113>0,SUM(CO113:CO117),IF(CO105>0,SUM(CO105:CO109),IF(CO128>0,SUM(CO128:CO131),SUM(CO68:CO103))))+SUM(CO118:CO123)",
+    "CO166": "=ROUND(CN$132-CN$136-CN$137-CN$138-CO142-CO154,2)",
+    "CO178": "=(CN132+CO132)*6",
+    "CO179": "=CO178-CO180-CO181"
+  },
+  "sheets": [
+    "VD",
+    "M",
+    "V",
+    "TS",
+    "İ",
+    "H",
+    "A",
+    "G"
+  ]
+}

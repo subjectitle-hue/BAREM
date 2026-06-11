@@ -1,0 +1,402 @@
+{
+  "E-1-GEN-GİH": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "Ü-1-GEN-GİH": {
+    "tazminat": 0.0,
+    "yanOdeme": 2280.0,
+    "ekOdeme": 90.0
+  },
+  "T-1-GEN-GİH": {
+    "tazminat": 30.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "T-2-GEN-GİH": {
+    "tazminat": 25.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "T-3-GEN-GİH": {
+    "tazminat": 5.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "E-2-GEN-SP": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "E-3-GEN-SP": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "T-4-GEN-GİH": {
+    "tazminat": 22.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "T-5-GEN-GİH": {
+    "tazminat": 12.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "E-4-GEN-GİH": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "E-5-GEN-SP": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "E-6-GEN-SHS": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "E-7-GEN-SHS": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "Z-1-GEN-YHS": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "E-8-GEN-SP": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "E-9-GEN-THS": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "E-10-GEN-THS": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "E-11-GEN-THS": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "E-12-GEN-AHS": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "T-6-GEN-GİH": {
+    "tazminat": 20.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "T-7-GEN-GİH": {
+    "tazminat": 15.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "E-13-GEN-SHS": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "Z-2-BÜRO-GİH": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "T-8-BÜRO-GİH": {
+    "tazminat": 20.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "T-9-BÜRO-GİH": {
+    "tazminat": 7.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "E-14-BÜRO-SP": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "E-15-BÜRO-GİH": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "T-10-BÜRO-GİH": {
+    "tazminat": 7.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "Z-3-BÜRO-GİH": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "T-11-BÜRO-GİH": {
+    "tazminat": 15.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "T-12-BÜRO-GİH": {
+    "tazminat": 10.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "T-13-BÜRO-GİH": {
+    "tazminat": 5.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "T-14-EĞT-EÖS": {
+    "tazminat": 20.56,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "T-15-SAĞ-SHS": {
+    "tazminat": 7.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "T-16-YRL-GİH": {
+    "tazminat": 12.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "Z-4-YRL-GİH": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "T-17-YRL-GİH": {
+    "tazminat": 10.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "Z-5-YRL-GİH": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "E-16-YRL-GİH": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "E-17-YRL-THS": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "T-18-KLT-THS": {
+    "tazminat": 20.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "T-19-KLT-THS": {
+    "tazminat": 30.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "E-18-KLT-THS": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "Z-7-BAY-THS": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "T-20-ORM-GİH": {
+    "tazminat": 10.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "E-19-ORM-SP": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "İ-1-ORM-GİH": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "İ-2-ORM-GİH": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "İ-3-ORM-GİH": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "Z-8-ENR-GİH": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "T-21-DYN-DHS": {
+    "tazminat": 30.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "T-22-DYN-DHS": {
+    "tazminat": 20.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "T-23-DYN-DHS": {
+    "tazminat": 20.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "T-24-DYN-DHS": {
+    "tazminat": 45.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "T-25-DYN-DHS": {
+    "tazminat": 15.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "T-26-DYN-DHS": {
+    "tazminat": 15.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "T-27-DYN-DHS": {
+    "tazminat": 20.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "T-28-DYN-DHS": {
+    "tazminat": 20.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "E-20-DYN-DHS": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "T-29-DYN-DHS": {
+    "tazminat": 5.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "T-30-DYN-DHS": {
+    "tazminat": 10.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "E-21-DYN-SP": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "İ-4-EĞT-ÖE": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "D-1-SAĞ-SHS": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "D-2-SAĞ-SHS": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "D-3-SAĞ-SHS": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "D-4-SAĞ-SHS": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "D-5-SAĞ-SHS": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "D-6-SAĞ-SHS": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "D-7-SAĞ-SHS": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "D-8-SAĞ-SHS": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "D-9-SAĞ-SHS": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "D-10-SAĞ-SHS": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "T-31-BÜRO-GİH": {
+    "tazminat": 10.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "Z-9-YRL-GİH": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "T-32-BÜRO-GİH": {
+    "tazminat": 7.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "T-33-BÜRO-GİH": {
+    "tazminat": 5.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "E-22-BÜRO-SP": {
+    "tazminat": 0.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "T-34-GEN-GİH": {
+    "tazminat": 22.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  },
+  "T-41-GEN-DHS": {
+    "tazminat": 5.0,
+    "yanOdeme": 500.0,
+    "ekOdeme": 90.0
+  }
+}

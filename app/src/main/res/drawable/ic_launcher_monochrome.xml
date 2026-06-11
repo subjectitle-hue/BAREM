@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Temalı simge (Android 13+): sade E + film delikleri -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M44,32 L52,32 L52,76 L44,76 Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M52,32 L74,32 L74,40 L52,40 Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M52,48 L70,48 L70,56 L52,56 Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M52,64 L72,64 L72,72 L52,72 Z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M78,36h6v6h-6zM78,48h6v6h-6zM78,60h6v6h-6zM78,72h6v6h-6z" />
+</vector>

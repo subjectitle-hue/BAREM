@@ -1,0 +1,18 @@
+{
+  "medeniHal": [
+    "Bekâr",
+    "Evli-Eşi Çalışmayan",
+    "Evli-Eşi Çalışıyor"
+  ],
+  "topluSozlesme": [
+    "Hayır",
+    "Evet"
+  ],
+  "yabanciDil": [
+    "A1",
+    "A2",
+    "B",
+    "C",
+    "Yok"
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "source": "Mehmet Gürer.xlsx",
+  "password": "erdal",
+  "activePeriodColumn": "CO",
+  "ocakColumn": "CN",
+  "temmuzColumn": "CO",
+  "activeYear": 2026,
+  "scenarios": [
+    {
+      "id": "yhs-hizmetli-1-4",
+      "description": "Referans Excel — YHS Hizmetli 1/4 (2026 CN/CO)",
+      "validateMode": "excel",
+      "excelInputs": {
+        "hizmetSinifi": "YHS",
+        "unvan": "HİZMETLİ",
+        "detay": "Lisans",
+        "derece": 1,
+        "kademe": 4,
+        "kidemYili": 0,
+        "medeniHal": "Bekâr",
+        "cocukUst6": 0,
+        "cocukAlt6": 0
+      },
+      "expected": {
+        "cn132": 67826.62,
+        "co132": 72574.48,
+        "monthlyNetCo": [62189.25, 62189.25, 62189.25, 62189.25, 62189.25, 62189.25, 66524.95, 66524.95, 66524.95, 66524.95, 66524.95, 66524.95],
+        "co178": 842406.60,
+        "co179": 772285.21,
+        "tolerance": 0.02
+      }
+    },
+    {
+      "id": "yhs-hizmetli-1-4-engine",
+      "description": "Faz 3 — YHS motor net (kidem 25, TYO/GV matrah)",
+      "validateMode": "engine",
+      "engineInputs": {
+        "unvan": "HİZMETLİ",
+        "detay": "Lisans",
+        "derece": 1,
+        "kademe": 4,
+        "kidemYili": 25,
+        "medeniHal": "Bekâr",
+        "cocukUst6": 0,
+        "cocukAlt6": 0
+      },
+      "expected": {
+        "cn132": 67826.62,
+        "co132": 72574.48,
+        "monthlyNetCo": [62189.26, 62189.25, 62189.26, 62189.25, 62189.26, 62189.26, 66524.95, 66524.95, 66524.94, 66524.95, 66524.95, 66524.95],
+        "co178": 842406.60,
+        "co179": 772285.23,
+        "tolerance": 0.02,
+        "brutTolerance": 0.02
+      }
+    },
+    {
+      "id": "shs-hemşire-myo-bekar-3-4-k27",
+      "description": "Faz 3 — Hemşire bekâr (M-V BL, brüt motor)",
+      "validateMode": "engine",
+      "engineInputs": {
+        "unvan": "HEMŞİRE",
+        "detay": "Mesleki Yüksek Öğrenim-Önlisans",
+        "derece": 3,
+        "kademe": 4,
+        "kidemYili": 27,
+        "medeniHal": "Bekâr",
+        "cocukUst6": 0,
+        "cocukAlt6": 0
+      },
+      "expected": {
+        "cn132": 76622.93,
+        "co132": 81986.53,
+        "monthlyNetCo": [70007.24, 70007.24, 70007.25, 70007.24, 70007.24, 70007.24, 74890.20, 74890.21, 74890.20, 74890.20, 74890.20, 74890.21],
+        "co178": 951656.76,
+        "co179": 869384.67,
+        "bl72": 90.0,
+        "tolerance": 0.02,
+        "brutTolerance": 500
+      }
+    },
+    {
+      "id": "shs-hemşire-myo-evli-3-4-k27",
+      "description": "Faz 3 — Hemşire evli (aile brütte, nette çift sayım yok)",
+      "validateMode": "engine",
+      "engineInputs": {
+        "unvan": "HEMŞİRE",
+        "detay": "Mesleki Yüksek Öğrenim-Önlisans",
+        "derece": 3,
+        "kademe": 4,
+        "kidemYili": 27,
+        "medeniHal": "Evli-Eşi Çalışmayan",
+        "cocukUst6": 0,
+        "cocukAlt6": 0
+      },
+      "expected": {
+        "cn132": 79777.56,
+        "co132": 85361.98,
+        "monthlyNetCo": [73137.93, 73137.93, 73137.92, 73137.93, 73137.93, 73137.93, 78240.03, 78240.04, 78240.03, 78240.03, 78240.03, 78240.04],
+        "co178": 990837.24,
+        "co179": 908267.77,
+        "bl72": 90.0,
+        "tolerance": 0.02,
+        "brutTolerance": 500
+      }
+    },
+    {
+      "id": "shs-hemşire-myo-aile-cocuk-3-4-k27",
+      "description": "Faz 3 — Hemşire evli + 1 cocuk ust6 + 1 alt6",
+      "validateMode": "engine",
+      "engineInputs": {
+        "unvan": "HEMŞİRE",
+        "detay": "Mesleki Yüksek Öğrenim-Önlisans",
+        "derece": 3,
+        "kademe": 4,
+        "kidemYili": 27,
+        "medeniHal": "Evli-Eşi Çalışmayan",
+        "cocukUst6": 1,
+        "cocukAlt6": 1
+      },
+      "expected": {
+        "cn132": 80818.47,
+        "co132": 86475.75,
+        "monthlyNetCo": [74170.94, 74170.94, 74170.93, 74170.94, 74170.94, 74170.94, 79345.35, 79345.34, 79345.35, 79345.35, 79345.35, 79345.35],
+        "co178": 1003765.32,
+        "co179": 921097.72,
+        "tolerance": 0.02,
+        "brutTolerance": 500
+      }
+    },
+    {
+      "id": "shs-hemşire-myo-toplu-sozlesme-3-4-k27",
+      "description": "Faz 3 — Hemşire evli + toplu sözleşme ikramiyesi VAR",
+      "validateMode": "engine",
+      "engineInputs": {
+        "unvan": "HEMŞİRE",
+        "detay": "Mesleki Yüksek Öğrenim-Önlisans",
+        "derece": 3,
+        "kademe": 4,
+        "kidemYili": 27,
+        "medeniHal": "Evli-Eşi Çalışmayan",
+        "topluSozlesme": "VAR",
+        "cocukUst6": 0,
+        "cocukAlt6": 0
+      },
+      "expected": {
+        "cn132": 80758.78,
+        "co132": 86411.89,
+        "monthlyNetCo": [74111.70, 74111.70, 74111.70, 74111.70, 74111.70, 74111.71, 79281.97, 79281.97, 79281.98, 79281.97, 79281.97, 79281.98],
+        "co178": 1003024.02,
+        "co179": 920362.05,
+        "tolerance": 0.02,
+        "brutTolerance": 500
+      }
+    },
+    {
+      "id": "shs-dis-tabibi-bolgesel-1-bolge",
+      "description": "Faz 5 — Diş tabibi + AKSARAY/Eskil (1. Bölge) brüt artışı",
+      "validateMode": "engine",
+      "engineInputs": {
+        "unvan": "DİŞ TABİBİ",
+        "detay": "",
+        "derece": 1,
+        "kademe": 4,
+        "kidemYili": 10,
+        "medeniHal": "Bekâr",
+        "cocukUst6": 0,
+        "cocukAlt6": 0,
+        "bolgeselKod": "1. Bölge"
+      },
+      "expected": {
+        "cn132": 95396.65,
+        "co132": 102074.42,
+        "tolerance": 0.02,
+        "brutTolerance": 0.02,
+        "checkNet": false
+      }
+    },
+    {
+      "id": "shs-dis-tabibi-bolgesel-6-bolge",
+      "description": "Faz 5 — Diş tabibi + 6. Bölge (ADIYAMAN/Çelikhan yönünde brüt > 1. Bölge)",
+      "validateMode": "engine",
+      "engineInputs": {
+        "unvan": "DİŞ TABİBİ",
+        "detay": "",
+        "derece": 1,
+        "kademe": 4,
+        "kidemYili": 10,
+        "medeniHal": "Bekâr",
+        "cocukUst6": 0,
+        "cocukAlt6": 0,
+        "bolgeselKod": "6. Bölge"
+      },
+      "expected": {
+        "cn132": 99615.78,
+        "co132": 106588.88,
+        "tolerance": 0.02,
+        "brutTolerance": 0.02,
+        "checkNet": false
+      }
+    }
+  ]
+}

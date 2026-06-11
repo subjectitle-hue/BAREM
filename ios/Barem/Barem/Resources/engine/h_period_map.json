@@ -1,0 +1,909 @@
+{
+  "periods": [
+    {
+      "col": "D",
+      "colIndex": 4,
+      "year": 1997,
+      "semester": "VERİ",
+      "memurK": null,
+      "tabanK": null,
+      "yanK": null,
+      "enYuksek": null
+    },
+    {
+      "col": "E",
+      "colIndex": 5,
+      "year": null,
+      "semester": "OCAK",
+      "memurK": 0.003315,
+      "tabanK": 0.02045,
+      "yanK": 0.0011,
+      "enYuksek": 31.4925
+    },
+    {
+      "col": "F",
+      "colIndex": 6,
+      "year": null,
+      "semester": "TEMMUZ",
+      "memurK": 0.004475,
+      "tabanK": 0.0281,
+      "yanK": 0.001485,
+      "enYuksek": 42.512499999999996
+    },
+    {
+      "col": "G",
+      "colIndex": 7,
+      "year": 1998,
+      "semester": "VERİ",
+      "memurK": null,
+      "tabanK": null,
+      "yanK": null,
+      "enYuksek": null
+    },
+    {
+      "col": "H",
+      "colIndex": 8,
+      "year": null,
+      "semester": "OCAK",
+      "memurK": 0.00582,
+      "tabanK": 0.0365,
+      "yanK": 0.00193,
+      "enYuksek": 55.29
+    },
+    {
+      "col": "I",
+      "colIndex": 9,
+      "year": null,
+      "semester": "TEMMUZ",
+      "memurK": 0.00775,
+      "tabanK": 0.0495,
+      "yanK": 0.00256,
+      "enYuksek": 73.625
+    },
+    {
+      "col": "J",
+      "colIndex": 10,
+      "year": 1999,
+      "semester": "VERİ",
+      "memurK": null,
+      "tabanK": null,
+      "yanK": null,
+      "enYuksek": null
+    },
+    {
+      "col": "K",
+      "colIndex": 11,
+      "year": null,
+      "semester": "OCAK",
+      "memurK": 0.009975,
+      "tabanK": 0.0634,
+      "yanK": 0.0032,
+      "enYuksek": 94.76249999999999
+    },
+    {
+      "col": "L",
+      "colIndex": 12,
+      "year": null,
+      "semester": "TEMMUZ",
+      "memurK": 0.012,
+      "tabanK": 0.077,
+      "yanK": 0.00385,
+      "enYuksek": 114.0
+    },
+    {
+      "col": "M",
+      "colIndex": 13,
+      "year": 2000,
+      "semester": "VERİ",
+      "memurK": null,
+      "tabanK": null,
+      "yanK": null,
+      "enYuksek": null
+    },
+    {
+      "col": "N",
+      "colIndex": 14,
+      "year": null,
+      "semester": "OCAK",
+      "memurK": 0.01381,
+      "tabanK": 0.0885,
+      "yanK": 0.00441,
+      "enYuksek": 131.195
+    },
+    {
+      "col": "O",
+      "colIndex": 15,
+      "year": null,
+      "semester": "TEMMUZ",
+      "memurK": 0.01658,
+      "tabanK": 0.1069,
+      "yanK": 0.00529,
+      "enYuksek": 157.51000000000002
+    },
+    {
+      "col": "P",
+      "colIndex": 16,
+      "year": 2001,
+      "semester": "VERİ",
+      "memurK": null,
+      "tabanK": null,
+      "yanK": null,
+      "enYuksek": null
+    },
+    {
+      "col": "Q",
+      "colIndex": 17,
+      "year": null,
+      "semester": "OCAK",
+      "memurK": 0.01824,
+      "tabanK": 0.1176,
+      "yanK": 0.00582,
+      "enYuksek": 173.28
+    },
+    {
+      "col": "R",
+      "colIndex": 18,
+      "year": null,
+      "semester": "TEMMUZ",
+      "memurK": 0.02275,
+      "tabanK": 0.14775,
+      "yanK": 0.007235,
+      "enYuksek": 216.125
+    },
+    {
+      "col": "S",
+      "colIndex": 19,
+      "year": 2002,
+      "semester": "VERİ",
+      "memurK": null,
+      "tabanK": null,
+      "yanK": null,
+      "enYuksek": null
+    },
+    {
+      "col": "T",
+      "colIndex": 20,
+      "year": null,
+      "semester": "OCAK",
+      "memurK": 0.0303,
+      "tabanK": 0.1977,
+      "yanK": 0.009625,
+      "enYuksek": 287.85
+    },
+    {
+      "col": "U",
+      "colIndex": 21,
+      "year": null,
+      "semester": "TEMMUZ",
+      "memurK": 0.03265,
+      "tabanK": 0.3133,
+      "yanK": 0.010365,
+      "enYuksek": 310.175
+    },
+    {
+      "col": "V",
+      "colIndex": 22,
+      "year": 2003,
+      "semester": "VERİ",
+      "memurK": null,
+      "tabanK": null,
+      "yanK": null,
+      "enYuksek": null
+    },
+    {
+      "col": "W",
+      "colIndex": 23,
+      "year": null,
+      "semester": "OCAK",
+      "memurK": 0.0343,
+      "tabanK": 0.32925,
+      "yanK": 0.010885,
+      "enYuksek": 325.84999999999997
+    },
+    {
+      "col": "X",
+      "colIndex": 24,
+      "year": null,
+      "semester": "TEMMUZ",
+      "memurK": 0.0343,
+      "tabanK": 0.39525,
+      "yanK": 0.010885,
+      "enYuksek": 325.84999999999997
+    },
+    {
+      "col": "Y",
+      "colIndex": 25,
+      "year": 2004,
+      "semester": "VERİ",
+      "memurK": null,
+      "tabanK": null,
+      "yanK": null,
+      "enYuksek": null
+    },
+    {
+      "col": "Z",
+      "colIndex": 26,
+      "year": null,
+      "semester": "OCAK",
+      "memurK": 0.03642,
+      "tabanK": 0.42925,
+      "yanK": 0.01155,
+      "enYuksek": 345.99
+    },
+    {
+      "col": "AA",
+      "colIndex": 27,
+      "year": null,
+      "semester": "TEMMUZ",
+      "memurK": 0.03861,
+      "tabanK": 0.45505,
+      "yanK": 0.01224,
+      "enYuksek": 366.79499999999996
+    },
+    {
+      "col": "AB",
+      "colIndex": 28,
+      "year": 2005,
+      "semester": "VERİ",
+      "memurK": null,
+      "tabanK": null,
+      "yanK": null,
+      "enYuksek": null
+    },
+    {
+      "col": "AC",
+      "colIndex": 29,
+      "year": null,
+      "semester": "OCAK",
+      "memurK": 0.0401,
+      "tabanK": 0.486,
+      "yanK": 0.0126,
+      "enYuksek": 380.95
+    },
+    {
+      "col": "AD",
+      "colIndex": 30,
+      "year": null,
+      "semester": "TEMMUZ",
+      "memurK": 0.0416,
+      "tabanK": 0.52075,
+      "yanK": 0.0132,
+      "enYuksek": 395.2
+    },
+    {
+      "col": "AE",
+      "colIndex": 31,
+      "year": 2006,
+      "semester": "VERİ",
+      "memurK": null,
+      "tabanK": null,
+      "yanK": null,
+      "enYuksek": null
+    },
+    {
+      "col": "AF",
+      "colIndex": 32,
+      "year": null,
+      "semester": "OCAK",
+      "memurK": 0.04265,
+      "tabanK": 0.53377,
+      "yanK": 0.01353,
+      "enYuksek": 405.175
+    },
+    {
+      "col": "AG",
+      "colIndex": 33,
+      "year": null,
+      "semester": "TEMMUZ",
+      "memurK": 0.044745,
+      "tabanK": 0.55983,
+      "yanK": 0.014192,
+      "enYuksek": 425.0775
+    },
+    {
+      "col": "AH",
+      "colIndex": 34,
+      "year": 2007,
+      "semester": "VERİ",
+      "memurK": null,
+      "tabanK": null,
+      "yanK": null,
+      "enYuksek": null
+    },
+    {
+      "col": "AI",
+      "colIndex": 35,
+      "year": null,
+      "semester": "OCAK",
+      "memurK": 0.046985,
+      "tabanK": 0.59812,
+      "yanK": 0.0149,
+      "enYuksek": 446.3575
+    },
+    {
+      "col": "AJ",
+      "colIndex": 36,
+      "year": null,
+      "semester": "TEMMUZ",
+      "memurK": 0.04835,
+      "tabanK": 0.62804,
+      "yanK": 0.01533,
+      "enYuksek": 459.325
+    },
+    {
+      "col": "AK",
+      "colIndex": 37,
+      "year": 2008,
+      "semester": "VERİ",
+      "memurK": null,
+      "tabanK": null,
+      "yanK": null,
+      "enYuksek": null
+    },
+    {
+      "col": "AL",
+      "colIndex": 38,
+      "year": null,
+      "semester": "OCAK",
+      "memurK": 0.049486,
+      "tabanK": 0.65283,
+      "yanK": 0.01569,
+      "enYuksek": 470.117
+    },
+    {
+      "col": "AM",
+      "colIndex": 39,
+      "year": null,
+      "semester": "TEMMUZ",
+      "memurK": 0.051448,
+      "tabanK": 0.6812,
+      "yanK": 0.016313,
+      "enYuksek": 488.75600000000003
+    },
+    {
+      "col": "AN",
+      "colIndex": 40,
+      "year": 2009,
+      "semester": "VERİ",
+      "memurK": null,
+      "tabanK": null,
+      "yanK": null,
+      "enYuksek": null
+    },
+    {
+      "col": "AO",
+      "colIndex": 41,
+      "year": null,
+      "semester": "OCAK",
+      "memurK": 0.053505,
+      "tabanK": 0.7084,
+      "yanK": 0.016965,
+      "enYuksek": 508.29749999999996
+    },
+    {
+      "col": "AP",
+      "colIndex": 42,
+      "year": null,
+      "semester": "TEMMUZ",
+      "memurK": 0.05592,
+      "tabanK": 0.74348,
+      "yanK": 0.01773,
+      "enYuksek": 531.24
+    },
+    {
+      "col": "AQ",
+      "colIndex": 43,
+      "year": 2010,
+      "semester": "VERİ",
+      "memurK": null,
+      "tabanK": null,
+      "yanK": null,
+      "enYuksek": null
+    },
+    {
+      "col": "AR",
+      "colIndex": 44,
+      "year": null,
+      "semester": "OCAK",
+      "memurK": 0.057383,
+      "tabanK": 0.76293,
+      "yanK": 0.01819,
+      "enYuksek": 545.1385
+    },
+    {
+      "col": "AS",
+      "colIndex": 45,
+      "year": null,
+      "semester": "TEMMUZ",
+      "memurK": 0.059445,
+      "tabanK": 0.7931,
+      "yanK": 0.018843,
+      "enYuksek": 564.7275
+    },
+    {
+      "col": "AT",
+      "colIndex": 46,
+      "year": 2011,
+      "semester": "VERİ",
+      "memurK": null,
+      "tabanK": null,
+      "yanK": null,
+      "enYuksek": null
+    },
+    {
+      "col": "AU",
+      "colIndex": 47,
+      "year": null,
+      "semester": "OCAK",
+      "memurK": 0.061954,
+      "tabanK": 0.82656,
+      "yanK": 0.019638,
+      "enYuksek": 588.563
+    },
+    {
+      "col": "AV",
+      "colIndex": 48,
+      "year": null,
+      "semester": "TEMMUZ",
+      "memurK": 0.06446,
+      "tabanK": 0.86251,
+      "yanK": 0.02044,
+      "enYuksek": 612.37
+    },
+    {
+      "col": "AW",
+      "colIndex": 49,
+      "year": 2012,
+      "semester": "VERİ",
+      "memurK": null,
+      "tabanK": null,
+      "yanK": null,
+      "enYuksek": null
+    },
+    {
+      "col": "AX",
+      "colIndex": 50,
+      "year": null,
+      "semester": "OCAK",
+      "memurK": 0.068835,
+      "tabanK": 0.92105,
+      "yanK": 0.021827,
+      "enYuksek": 653.9324999999999
+    },
+    {
+      "col": "AY",
+      "colIndex": 51,
+      "year": null,
+      "semester": "TEMMUZ",
+      "memurK": 0.071589,
+      "tabanK": 0.9579,
+      "yanK": 0.0227,
+      "enYuksek": 680.0955
+    },
+    {
+      "col": "AZ",
+      "colIndex": 52,
+      "year": 2013,
+      "semester": "VERİ",
+      "memurK": null,
+      "tabanK": null,
+      "yanK": null,
+      "enYuksek": null
+    },
+    {
+      "col": "BA",
+      "colIndex": 53,
+      "year": null,
+      "semester": "OCAK",
+      "memurK": 0.073837,
+      "tabanK": 0.98798,
+      "yanK": 0.0234128,
+      "enYuksek": 701.4515
+    },
+    {
+      "col": "BB",
+      "colIndex": 54,
+      "year": null,
+      "semester": "TEMMUZ",
+      "memurK": 0.076791,
+      "tabanK": 1.0275,
+      "yanK": 0.02435,
+      "enYuksek": 729.5145
+    },
+    {
+      "col": "BC",
+      "colIndex": 55,
+      "year": 2014,
+      "semester": "VERİ",
+      "memurK": null,
+      "tabanK": null,
+      "yanK": null,
+      "enYuksek": null
+    },
+    {
+      "col": "BD",
+      "colIndex": 56,
+      "year": null,
+      "semester": "OCAK",
+      "memurK": 0.076998,
+      "tabanK": 1.205274,
+      "yanK": 0.024416,
+      "enYuksek": 731.481
+    },
+    {
+      "col": "BE",
+      "colIndex": 57,
+      "year": null,
+      "semester": "TEMMUZ",
+      "memurK": 0.076998,
+      "tabanK": 1.205274,
+      "yanK": 0.024416,
+      "enYuksek": 731.481
+    },
+    {
+      "col": "BF",
+      "colIndex": 58,
+      "year": 2015,
+      "semester": "VERİ",
+      "memurK": null,
+      "tabanK": null,
+      "yanK": null,
+      "enYuksek": null
+    },
+    {
+      "col": "BG",
+      "colIndex": 59,
+      "year": null,
+      "semester": "OCAK",
+      "memurK": 0.079308,
+      "tabanK": 1.24144,
+      "yanK": 0.025149,
+      "enYuksek": 753.426
+    },
+    {
+      "col": "BH",
+      "colIndex": 60,
+      "year": null,
+      "semester": "TEMMUZ",
+      "memurK": 0.083084,
+      "tabanK": 1.30054,
+      "yanK": 0.026347,
+      "enYuksek": 789.298
+    },
+    {
+      "col": "BI",
+      "colIndex": 61,
+      "year": 2016,
+      "semester": "VERİ",
+      "memurK": null,
+      "tabanK": null,
+      "yanK": null,
+      "enYuksek": null
+    },
+    {
+      "col": "BJ",
+      "colIndex": 62,
+      "year": null,
+      "semester": "OCAK",
+      "memurK": 0.088817,
+      "tabanK": 1.390277,
+      "yanK": 0.028165,
+      "enYuksek": 843.7615
+    },
+    {
+      "col": "BK",
+      "colIndex": 63,
+      "year": null,
+      "semester": "TEMMUZ",
+      "memurK": 0.093259,
+      "tabanK": 1.4598,
+      "yanK": 0.029574,
+      "enYuksek": 885.9604999999999
+    },
+    {
+      "col": "BL",
+      "colIndex": 64,
+      "year": 2017,
+      "semester": "VERİ",
+      "memurK": null,
+      "tabanK": null,
+      "yanK": null,
+      "enYuksek": null
+    },
+    {
+      "col": "BM",
+      "colIndex": 65,
+      "year": null,
+      "semester": "OCAK",
+      "memurK": 0.096058,
+      "tabanK": 1.503595,
+      "yanK": 0.030462,
+      "enYuksek": 912.551
+    },
+    {
+      "col": "BN",
+      "colIndex": 66,
+      "year": null,
+      "semester": "TEMMUZ",
+      "memurK": 0.102706,
+      "tabanK": 1.607645,
+      "yanK": 0.03257,
+      "enYuksek": 975.7070000000001
+    },
+    {
+      "col": "BO",
+      "colIndex": 67,
+      "year": 2018,
+      "semester": "VERİ",
+      "memurK": null,
+      "tabanK": null,
+      "yanK": null,
+      "enYuksek": null
+    },
+    {
+      "col": "BP",
+      "colIndex": 68,
+      "year": null,
+      "semester": "OCAK",
+      "memurK": 0.10855,
+      "tabanK": 1.699121,
+      "yanK": 0.034424,
+      "enYuksek": 1031.225
+    },
+    {
+      "col": "BQ",
+      "colIndex": 69,
+      "year": null,
+      "semester": "TEMMUZ",
+      "memurK": 0.11794,
+      "tabanK": 1.8461,
+      "yanK": 0.037402,
+      "enYuksek": 1120.43
+    },
+    {
+      "col": "BR",
+      "colIndex": 70,
+      "year": 2019,
+      "semester": "VERİ",
+      "memurK": null,
+      "tabanK": null,
+      "yanK": null,
+      "enYuksek": null
+    },
+    {
+      "col": "BS",
+      "colIndex": 71,
+      "year": null,
+      "semester": "OCAK",
+      "memurK": 0.130597,
+      "tabanK": 2.044187,
+      "yanK": 0.041416,
+      "enYuksek": 1240.6715
+    },
+    {
+      "col": "BT",
+      "colIndex": 72,
+      "year": null,
+      "semester": "TEMMUZ",
+      "memurK": 0.138459,
+      "tabanK": 2.167248,
+      "yanK": 0.04391,
+      "enYuksek": 1315.3605
+    },
+    {
+      "col": "BU",
+      "colIndex": 73,
+      "year": 2020,
+      "semester": "VERİ",
+      "memurK": null,
+      "tabanK": null,
+      "yanK": null,
+      "enYuksek": null
+    },
+    {
+      "col": "BV",
+      "colIndex": 74,
+      "year": null,
+      "semester": "OCAK",
+      "memurK": 0.146061,
+      "tabanK": 2.28624,
+      "yanK": 0.046321,
+      "enYuksek": 1387.5795
+    },
+    {
+      "col": "BW",
+      "colIndex": 75,
+      "year": null,
+      "semester": "TEMMUZ",
+      "memurK": 0.154461,
+      "tabanK": 2.417699,
+      "yanK": 0.048985,
+      "enYuksek": 1467.3794999999998
+    },
+    {
+      "col": "BX",
+      "colIndex": 76,
+      "year": 2021,
+      "semester": "VERİ",
+      "memurK": null,
+      "tabanK": null,
+      "yanK": null,
+      "enYuksek": null
+    },
+    {
+      "col": "BY",
+      "colIndex": 77,
+      "year": null,
+      "semester": "OCAK",
+      "memurK": 0.165786,
+      "tabanK": 2.594917,
+      "yanK": 0.052576,
+      "enYuksek": 1574.9669999999999
+    },
+    {
+      "col": "BZ",
+      "colIndex": 78,
+      "year": null,
+      "semester": "TEMMUZ",
+      "memurK": 0.179797,
+      "tabanK": 2.814188,
+      "yanK": 0.057019,
+      "enYuksek": 1708.0715
+    },
+    {
+      "col": "CA",
+      "colIndex": 79,
+      "year": 2022,
+      "semester": "VERİ",
+      "memurK": null,
+      "tabanK": null,
+      "yanK": null,
+      "enYuksek": null
+    },
+    {
+      "col": "CB",
+      "colIndex": 80,
+      "year": null,
+      "semester": "OCAK",
+      "memurK": 0.235445,
+      "tabanK": 3.68518,
+      "yanK": 0.074667,
+      "enYuksek": 2236.7275
+    },
+    {
+      "col": "CC",
+      "colIndex": 81,
+      "year": null,
+      "semester": "TEMMUZ",
+      "memurK": 0.333603,
+      "tabanK": 5.221532,
+      "yanK": 0.105796,
+      "enYuksek": 3169.2284999999997
+    },
+    {
+      "col": "CD",
+      "colIndex": 82,
+      "year": 2023,
+      "semester": "VERİ",
+      "memurK": null,
+      "tabanK": null,
+      "yanK": null,
+      "enYuksek": null
+    },
+    {
+      "col": "CE",
+      "colIndex": 83,
+      "year": null,
+      "semester": "OCAK",
+      "memurK": 0.433684,
+      "tabanK": 6.787992,
+      "yanK": 0.137535,
+      "enYuksek": 4119.9980000000005
+    },
+    {
+      "col": "CF",
+      "colIndex": 84,
+      "year": null,
+      "semester": "TEMMUZ",
+      "memurK": 0.509796,
+      "tabanK": 7.979285,
+      "yanK": 0.161673,
+      "enYuksek": 4843.062
+    },
+    {
+      "col": "CG",
+      "colIndex": 85,
+      "year": 2024,
+      "semester": "VERİ",
+      "memurK": null,
+      "tabanK": null,
+      "yanK": null,
+      "enYuksek": null
+    },
+    {
+      "col": "CH",
+      "colIndex": 86,
+      "year": null,
+      "semester": "OCAK",
+      "memurK": 0.760871,
+      "tabanK": 11.909083,
+      "yanK": 0.241297,
+      "enYuksek": 7228.2744999999995
+    },
+    {
+      "col": "CI",
+      "colIndex": 87,
+      "year": null,
+      "semester": "TEMMUZ",
+      "memurK": 0.907796,
+      "tabanK": 14.208727,
+      "yanK": 0.287892,
+      "enYuksek": 8624.062
+    },
+    {
+      "col": "CJ",
+      "colIndex": 88,
+      "year": 2025,
+      "semester": "VERİ",
+      "memurK": null,
+      "tabanK": null,
+      "yanK": null,
+      "enYuksek": null
+    },
+    {
+      "col": "CK",
+      "colIndex": 89,
+      "year": null,
+      "semester": "OCAK",
+      "memurK": 1.012556,
+      "tabanK": 15.848415,
+      "yanK": 0.321115,
+      "enYuksek": 9619.282
+    },
+    {
+      "col": "CL",
+      "colIndex": 90,
+      "year": null,
+      "semester": "TEMMUZ",
+      "memurK": 1.1702109692,
+      "tabanK": 18.3160132155,
+      "yanK": 0.37111260549999997,
+      "enYuksek": 11117.0042074
+    },
+    {
+      "col": "CM",
+      "colIndex": 91,
+      "year": 2026,
+      "semester": "VERİ",
+      "memurK": null,
+      "tabanK": null,
+      "yanK": null,
+      "enYuksek": null
+    },
+    {
+      "col": "CN",
+      "colIndex": 92,
+      "year": null,
+      "semester": "OCAK",
+      "memurK": 1.387871,
+      "tabanK": 22.722793,
+      "yanK": 0.440141,
+      "enYuksek": 13184.774500000001
+    },
+    {
+      "col": "CO",
+      "colIndex": 93,
+      "year": null,
+      "semester": "TEMMUZ",
+      "memurK": 1.4850219700000002,
+      "tabanK": 24.31338851,
+      "yanK": 0.47095087,
+      "enYuksek": 14107.708715000002
+    }
+  ],
+  "activeColumns": [
+    "CN",
+    "CO"
+  ],
+  "activeYear": 2026
+}

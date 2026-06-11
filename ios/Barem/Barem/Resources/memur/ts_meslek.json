@@ -1,0 +1,812 @@
+[
+{
+"hizmetKolu": "Genel",
+"nitelik": "Ek ödeme",
+"kodPrefix": "GEN",
+"hizmetSinifi": "GİH",
+"sira": 1,
+"kod": "E-1-GEN-GİH",
+"detay": "İtfaiyeci ve Yangın Söndürme Eri"
+},
+{
+"hizmetKolu": "Genel",
+"nitelik": "Ücret Göstergesi",
+"kodPrefix": "GEN",
+"hizmetSinifi": "GİH",
+"sira": 1,
+"kod": "Ü-1-GEN-GİH",
+"detay": "375 II ve III sayıcılı Cetvel"
+},
+{
+"hizmetKolu": "Genel",
+"nitelik": "Tazminat",
+"kodPrefix": "GEN",
+"hizmetSinifi": "GİH",
+"sira": 1,
+"kod": "T-1-GEN-GİH",
+"detay": "KİT’lerde görev yapan başmüdür, kombina, fabrika, müessese ve işletme müdürleri"
+},
+{
+"hizmetKolu": "Genel",
+"nitelik": "Tazminat",
+"kodPrefix": "GEN",
+"hizmetSinifi": "GİH",
+"sira": 2,
+"kod": "T-2-GEN-GİH",
+"detay": "KİT’lerde görev yapan bölge müdür yardımcıları, daire başkan yardımcıları ve birinci fıkradan yararlanmayan müdürler ile müdür yardımcıları"
+},
+{
+"hizmetKolu": "Genel",
+"nitelik": "Tazminat",
+"kodPrefix": "GEN",
+"hizmetSinifi": "GİH",
+"sira": 3,
+"kod": "T-3-GEN-GİH",
+"detay": "Sivil savunma uzmanları"
+},
+{
+"hizmetKolu": "Genel",
+"nitelik": "Ek Ödeme",
+"kodPrefix": "GEN",
+"hizmetSinifi": "SP",
+"sira": 2,
+"kod": "E-2-GEN-SP",
+"detay": "KİT’lerde 399 sayılı Kanun Hükmünde Kararname kapsamında görev yapan teknik şef, atölye şefi, teknik amir, teknik uzman, grup başmühendisi, başmühendis, başmimar, mühendis, mimar, şehir plancısı ve veteriner"
+},
+{
+"hizmetKolu": "Genel",
+"nitelik": "Ek Ödeme",
+"kodPrefix": "GEN",
+"hizmetSinifi": "SP",
+"sira": 3,
+"kod": "E-3-GEN-SP",
+"detay": "KİT’lerde 399 sayılı Kanun Hükmünde Kararname kapsamında görev yapan biyolog, kimyager, fizikçi, istatistikçi ve matematikçi"
+},
+{
+"hizmetKolu": "Genel",
+"nitelik": "Tazminat",
+"kodPrefix": "GEN",
+"hizmetSinifi": "GİH",
+"sira": 4,
+"kod": "T-4-GEN-GİH",
+"detay": "Şef"
+},
+{
+"hizmetKolu": "Genel",
+"nitelik": "Tazminat",
+"kodPrefix": "GEN",
+"hizmetSinifi": "GİH",
+"sira": 5,
+"kod": "T-5-GEN-GİH",
+"detay": "Amir"
+},
+{
+"hizmetKolu": "Genel",
+"nitelik": "Ek Ödeme",
+"kodPrefix": "GEN",
+"hizmetSinifi": "GİH",
+"sira": 4,
+"kod": "E-4-GEN-GİH",
+"detay": "Koruma ve güvenlik görevlisi"
+},
+{
+"hizmetKolu": "Genel",
+"nitelik": "Ek Ödeme",
+"kodPrefix": "GEN",
+"hizmetSinifi": "SP",
+"sira": 5,
+"kod": "E-5-GEN-SP",
+"detay": "Koruma ve güvenlik görevlisi"
+},
+{
+"hizmetKolu": "Genel",
+"nitelik": "Ek Ödeme",
+"kodPrefix": "GEN",
+"hizmetSinifi": "SHS",
+"sira": 6,
+"kod": "E-6-GEN-SHS",
+"detay": "tabip ve diş tabibi"
+},
+{
+"hizmetKolu": "Genel",
+"nitelik": "Ek Ödeme",
+"kodPrefix": "GEN",
+"hizmetSinifi": "SHS",
+"sira": 7,
+"kod": "E-7-GEN-SHS",
+"detay": "(ç) ve (f) sıraları"
+},
+{
+"hizmetKolu": "Genel",
+"nitelik": "Zamlar",
+"kodPrefix": "GEN",
+"hizmetSinifi": "YHS",
+"sira": 1,
+"kod": "Z-1-GEN-YHS",
+"detay": "Gassal"
+},
+{
+"hizmetKolu": "Genel",
+"nitelik": "Ek Ödeme",
+"kodPrefix": "GEN",
+"hizmetSinifi": "SP",
+"sira": 8,
+"kod": "E-8-GEN-SP",
+"detay": "İdari büro görevlisi ile idari destek personeli"
+},
+{
+"hizmetKolu": "Genel",
+"nitelik": "Ek Ödeme",
+"kodPrefix": "GEN",
+"hizmetSinifi": "THS",
+"sira": 9,
+"kod": "E-9-GEN-THS",
+"detay": "Teknik Personel (a) Grubu"
+},
+{
+"hizmetKolu": "Genel",
+"nitelik": "Ek Ödeme",
+"kodPrefix": "GEN",
+"hizmetSinifi": "THS",
+"sira": 10,
+"kod": "E-10-GEN-THS",
+"detay": "Teknik Personel (b) Grubu"
+},
+{
+"hizmetKolu": "Genel",
+"nitelik": "Ek Ödeme",
+"kodPrefix": "GEN",
+"hizmetSinifi": "THS",
+"sira": 11,
+"kod": "E-11-GEN-THS",
+"detay": "Teknik Personel (c) Grubu"
+},
+{
+"hizmetKolu": "Genel",
+"nitelik": "Ek Ödeme",
+"kodPrefix": "GEN",
+"hizmetSinifi": "AHS",
+"sira": 12,
+"kod": "E-12-GEN-AHS",
+"detay": "Avukat"
+},
+{
+"hizmetKolu": "Genel",
+"nitelik": "Tazminat",
+"kodPrefix": "GEN",
+"hizmetSinifi": "GİH",
+"sira": 6,
+"kod": "T-6-GEN-GİH",
+"detay": "Müdürler"
+},
+{
+"hizmetKolu": "Genel",
+"nitelik": "Tazminat",
+"kodPrefix": "GEN",
+"hizmetSinifi": "GİH",
+"sira": 7,
+"kod": "T-7-GEN-GİH",
+"detay": "(a) bendi kapsamında bulunanlar hariç; müdür yardımcısı, başkan yardımcısı, sayman yardımcısı, hazine sayman yardımcısı kadro unvanında bulunanlar ile diğer müdür yardımcısı ve başkan yardımcısı"
+},
+{
+"hizmetKolu": "Genel",
+"nitelik": "Ek Ödeme",
+"kodPrefix": "GEN",
+"hizmetSinifi": "SHS",
+"sira": 13,
+"kod": "E-13-GEN-SHS",
+"detay": "Veteriner hekimler"
+},
+{
+"hizmetKolu": "Genel",
+"nitelik": "Ücret Göstergesi",
+"kodPrefix": "GEN",
+"hizmetSinifi": "GİH",
+"sira": 2,
+"kod": "Ü-2-GEN-GİH",
+"detay": "721 göstergeye karşılık taban aylığı"
+},
+{
+"hizmetKolu": "Büro",
+"nitelik": "Zamlar",
+"kodPrefix": "BÜRO",
+"hizmetSinifi": "GİH",
+"sira": 2,
+"kod": "Z-2-BÜRO-GİH",
+"detay": "Emanet memurları-Bir kat artırımlı"
+},
+{
+"hizmetKolu": "Büro",
+"nitelik": "Tazminat",
+"kodPrefix": "BÜRO",
+"hizmetSinifi": "GİH",
+"sira": 8,
+"kod": "T-8-BÜRO-GİH",
+"detay": "İcra memurları"
+},
+{
+"hizmetKolu": "Büro",
+"nitelik": "Tazminat",
+"kodPrefix": "BÜRO",
+"hizmetSinifi": "GİH",
+"sira": 9,
+"kod": "T-9-BÜRO-GİH",
+"detay": "Mübaşir"
+},
+{
+"hizmetKolu": "Büro",
+"nitelik": "Ek Ödeme",
+"kodPrefix": "BÜRO",
+"hizmetSinifi": "SP",
+"sira": 14,
+"kod": "E-14-BÜRO-SP",
+"detay": "Mübaşir"
+},
+{
+"hizmetKolu": "Büro",
+"nitelik": "Ek Ödeme",
+"kodPrefix": "BÜRO",
+"hizmetSinifi": "GİH",
+"sira": 15,
+"kod": "E-15-BÜRO-GİH",
+"detay": "İl nüfus ve vatandaşlık müdür"
+},
+{
+"hizmetKolu": "Büro",
+"nitelik": "Tazminat",
+"kodPrefix": "BÜRO",
+"hizmetSinifi": "GİH",
+"sira": 10,
+"kod": "T-10-BÜRO-GİH",
+"detay": "Taşra uzmanları ve denetmen yardımcıları"
+},
+{
+"hizmetKolu": "Büro",
+"nitelik": "Zamlar",
+"kodPrefix": "BÜRO",
+"hizmetSinifi": "GİH",
+"sira": 3,
+"kod": "Z-3-BÜRO-GİH",
+"detay": "Veznedar"
+},
+{
+"hizmetKolu": "Büro",
+"nitelik": "Tazminat",
+"kodPrefix": "BÜRO",
+"hizmetSinifi": "GİH",
+"sira": 11,
+"kod": "T-11-BÜRO-GİH",
+"detay": "Adalet tazminatı-Ankara İstanbul-İzmir"
+},
+{
+"hizmetKolu": "Büro",
+"nitelik": "Tazminat",
+"kodPrefix": "BÜRO",
+"hizmetSinifi": "GİH",
+"sira": 12,
+"kod": "T-12-BÜRO-GİH",
+"detay": "Adalet tazminatı-Diğer büyükşehir"
+},
+{
+"hizmetKolu": "Büro",
+"nitelik": "Tazminat",
+"kodPrefix": "BÜRO",
+"hizmetSinifi": "GİH",
+"sira": 13,
+"kod": "T-13-BÜRO-GİH",
+"detay": "Adalet tazminatı-Diğer iller"
+},
+{
+"hizmetKolu": "Eğitim",
+"nitelik": "Tazminat",
+"kodPrefix": "EĞT",
+"hizmetSinifi": "EÖS",
+"sira": 14,
+"kod": "T-14-EĞT-EÖS",
+"detay": "Öğretmenlerin Tazminatı"
+},
+{
+"hizmetKolu": "Sağlık",
+"nitelik": "Tazminat",
+"kodPrefix": "SAĞ",
+"hizmetSinifi": "SHS",
+"sira": 15,
+"kod": "T-15-SAĞ-SHS",
+"detay": "Uzman hemşire ve uzman ebe"
+},
+{
+"hizmetKolu": "Yerel",
+"nitelik": "Tazminat",
+"kodPrefix": "YRL",
+"hizmetSinifi": "GİH",
+"sira": 16,
+"kod": "T-16-YRL-GİH",
+"detay": "Zabıta ve itfaiye personeli"
+},
+{
+"hizmetKolu": "Yerel",
+"nitelik": "Zamlar",
+"kodPrefix": "YRL",
+"hizmetSinifi": "GİH",
+"sira": 4,
+"kod": "Z-4-YRL-GİH",
+"detay": "Zabıta  zamları bir kat artırımlı"
+},
+{
+"hizmetKolu": "Yerel",
+"nitelik": "Tazminat",
+"kodPrefix": "YRL",
+"hizmetSinifi": "GİH",
+"sira": 17,
+"kod": "T-17-YRL-GİH",
+"detay": "İcra memurları"
+},
+{
+"hizmetKolu": "Yerel",
+"nitelik": "Zamlar",
+"kodPrefix": "YRL",
+"hizmetSinifi": "GİH",
+"sira": 5,
+"kod": "Z-5-YRL-GİH",
+"detay": "Ölçü ve ayar memurları"
+},
+{
+"hizmetKolu": "Yerel",
+"nitelik": "Ek Ödeme",
+"kodPrefix": "YRL",
+"hizmetSinifi": "GİH",
+"sira": 16,
+"kod": "E-16-YRL-GİH",
+"detay": "Evlendirme memurları"
+},
+{
+"hizmetKolu": "Yerel",
+"nitelik": "Ek Ödeme",
+"kodPrefix": "YRL",
+"hizmetSinifi": "THS",
+"sira": 17,
+"kod": "E-17-YRL-THS",
+"detay": "sanat tarihçileri"
+},
+{
+"hizmetKolu": "Basın",
+"nitelik": "Zamlar",
+"kodPrefix": "BSN",
+"hizmetSinifi": "GİH",
+"sira": 6,
+"kod": "Z-6-BSN-GİH",
+"detay": "Cumhurbaşkanlığı İletişim Başkanlığı zam puanları %20 artırımlı"
+},
+{
+"hizmetKolu": "Kültür",
+"nitelik": "Tazminat",
+"kodPrefix": "KLT",
+"hizmetSinifi": "THS",
+"sira": 18,
+"kod": "T-18-KLT-THS",
+"detay": "Turizm araştırmacıları mütercim gibi alan"
+},
+{
+"hizmetKolu": "Kültür",
+"nitelik": "Tazminat",
+"kodPrefix": "KLT",
+"hizmetSinifi": "THS",
+"sira": 19,
+"kod": "T-19-KLT-THS",
+"detay": "Turizm araştırmacıları mütercim gibi almayan"
+},
+{
+"hizmetKolu": "Kültür",
+"nitelik": "Ek Ödeme",
+"kodPrefix": "KLT",
+"hizmetSinifi": "THS",
+"sira": 18,
+"kod": "E-18-KLT-THS",
+"detay": "Müze araştırmacısı, sanat tarihçisi ile THS uzmanları"
+},
+{
+"hizmetKolu": "Bayındırlık",
+"nitelik": "Zamlar",
+"kodPrefix": "BAY",
+"hizmetSinifi": "THS",
+"sira": 7,
+"kod": "Z-7-BAY-THS",
+"detay": "Arama kurtarma teknisyenleri"
+},
+{
+"hizmetKolu": "Orman",
+"nitelik": "Tazminat",
+"kodPrefix": "ORM",
+"hizmetSinifi": "GİH",
+"sira": 20,
+"kod": "T-20-ORM-GİH",
+"detay": "Orman muhafaza memurları"
+},
+{
+"hizmetKolu": "Orman",
+"nitelik": "Ek Ödeme",
+"kodPrefix": "ORM",
+"hizmetSinifi": "SP",
+"sira": 19,
+"kod": "E-19-ORM-SP",
+"detay": "Orman muhafaza memurları"
+},
+{
+"hizmetKolu": "Orman",
+"nitelik": "İlave Ödeme",
+"kodPrefix": "ORM",
+"hizmetSinifi": "GİH",
+"sira": 1,
+"kod": "İ-1-ORM-GİH",
+"detay": "Atatürk Orman Çiftliği müdürü Gösterge"
+},
+{
+"hizmetKolu": "Orman",
+"nitelik": "İlave Ödeme",
+"kodPrefix": "ORM",
+"hizmetSinifi": "GİH",
+"sira": 2,
+"kod": "İ-2-ORM-GİH",
+"detay": "Atatürk Orman Çiftliği müdür yardımcısı ile diğer müdür kadroları"
+},
+{
+"hizmetKolu": "Orman",
+"nitelik": "İlave Ödeme",
+"kodPrefix": "ORM",
+"hizmetSinifi": "GİH",
+"sira": 3,
+"kod": "İ-3-ORM-GİH",
+"detay": "AOÇ'deki diğer personele"
+},
+{
+"hizmetKolu": "Enerji",
+"nitelik": "Zamlar",
+"kodPrefix": "ENR",
+"hizmetSinifi": "GİH",
+"sira": 8,
+"kod": "Z-8-ENR-GİH",
+"detay": "Ölçü ve ayar memurları"
+},
+{
+"hizmetKolu": "Diyanet",
+"nitelik": "Tazminat",
+"kodPrefix": "DYN",
+"hizmetSinifi": "DHS",
+"sira": 21,
+"kod": "T-21-DYN-DHS",
+"detay": "Musahhih"
+},
+{
+"hizmetKolu": "Diyanet",
+"nitelik": "Tazminat",
+"kodPrefix": "DYN",
+"hizmetSinifi": "DHS",
+"sira": 22,
+"kod": "T-22-DYN-DHS",
+"detay": "Eğitim Görevlisi-DİBEM"
+},
+{
+"hizmetKolu": "Diyanet",
+"nitelik": "Tazminat",
+"kodPrefix": "DYN",
+"hizmetSinifi": "DHS",
+"sira": 23,
+"kod": "T-23-DYN-DHS",
+"detay": "Eğitim Görevlisi- DYİM"
+},
+{
+"hizmetKolu": "Diyanet",
+"nitelik": "Tazminat",
+"kodPrefix": "DYN",
+"hizmetSinifi": "DHS",
+"sira": 24,
+"kod": "T-24-DYN-DHS",
+"detay": "Murakıp"
+},
+{
+"hizmetKolu": "Diyanet",
+"nitelik": "Tazminat",
+"kodPrefix": "DYN",
+"hizmetSinifi": "DHS",
+"sira": 25,
+"kod": "T-25-DYN-DHS",
+"detay": "Başvaiz"
+},
+{
+"hizmetKolu": "Diyanet",
+"nitelik": "Tazminat",
+"kodPrefix": "DYN",
+"hizmetSinifi": "DHS",
+"sira": 26,
+"kod": "T-26-DYN-DHS",
+"detay": "Uzman vaiz"
+},
+{
+"hizmetKolu": "Diyanet",
+"nitelik": "Tazminat",
+"kodPrefix": "DYN",
+"hizmetSinifi": "DHS",
+"sira": 27,
+"kod": "T-27-DYN-DHS",
+"detay": "Cezaevi vaizi"
+},
+{
+"hizmetKolu": "Diyanet",
+"nitelik": "Tazminat",
+"kodPrefix": "DYN",
+"hizmetSinifi": "DHS",
+"sira": 28,
+"kod": "T-28-DYN-DHS",
+"detay": "Vaiz"
+},
+{
+"hizmetKolu": "Diyanet",
+"nitelik": "Ek Ödeme",
+"kodPrefix": "DYN",
+"hizmetSinifi": "DHS",
+"sira": 20,
+"kod": "E-20-DYN-DHS",
+"detay": "baş imam hatip, uzman imam hatip, imam hatip, baş müezzin kayyım ve müezzin kayyım"
+},
+{
+"hizmetKolu": "Diyanet",
+"nitelik": "Tazminat",
+"kodPrefix": "DYN",
+"hizmetSinifi": "DHS",
+"sira": 29,
+"kod": "T-29-DYN-DHS",
+"detay": "Uzman vaiz, uzman imam htip, kursan kursu uzman öğreticisi va başmüezzin"
+},
+{
+"hizmetKolu": "Diyanet",
+"nitelik": "Tazminat",
+"kodPrefix": "DYN",
+"hizmetSinifi": "DHS",
+"sira": 30,
+"kod": "T-30-DYN-DHS",
+"detay": "başvaiz başiam hatip kursan kursu başöğreticisi"
+},
+{
+"hizmetKolu": "Diyanet",
+"nitelik": "Ek Ödeme",
+"kodPrefix": "DYN",
+"hizmetSinifi": "SP",
+"sira": 21,
+"kod": "E-21-DYN-SP",
+"detay": "İmam-hatip ve müezzin-kayyım"
+},
+{
+"hizmetKolu": "Eğitim",
+"nitelik": "İlave Ödeme",
+"kodPrefix": "EĞT",
+"hizmetSinifi": "ÖE",
+"sira": 4,
+"kod": "İ-4-EĞT-ÖE",
+"detay": "Eğitim Öğretim Ödeneğinin Artırılması"
+},
+{
+"hizmetKolu": "Sağlık",
+"nitelik": "Döner Sermaye",
+"kodPrefix": "SAĞ",
+"hizmetSinifi": "SHS",
+"sira": 1,
+"kod": "D-1-SAĞ-SHS",
+"detay": "Ek ödemelerin %20 artırımlı ödenmesi"
+},
+{
+"hizmetKolu": "Sağlık",
+"nitelik": "Döner Sermaye",
+"kodPrefix": "SAĞ",
+"hizmetSinifi": "SHS",
+"sira": 2,
+"kod": "D-2-SAĞ-SHS",
+"detay": "Taban ek ödemelerin artırımlı ödenmesi"
+},
+{
+"hizmetKolu": "Sağlık",
+"nitelik": "Döner Sermaye",
+"kodPrefix": "SAĞ",
+"hizmetSinifi": "SHS",
+"sira": 3,
+"kod": "D-3-SAĞ-SHS",
+"detay": "1. Grup-Sağlık"
+},
+{
+"hizmetKolu": "Sağlık",
+"nitelik": "Döner Sermaye",
+"kodPrefix": "SAĞ",
+"hizmetSinifi": "SHS",
+"sira": 4,
+"kod": "D-4-SAĞ-SHS",
+"detay": "2. Grup-Sağlık"
+},
+{
+"hizmetKolu": "Sağlık",
+"nitelik": "Döner Sermaye",
+"kodPrefix": "SAĞ",
+"hizmetSinifi": "SHS",
+"sira": 5,
+"kod": "D-5-SAĞ-SHS",
+"detay": "3. Grup-Sağlık"
+},
+{
+"hizmetKolu": "Sağlık",
+"nitelik": "Döner Sermaye",
+"kodPrefix": "SAĞ",
+"hizmetSinifi": "SHS",
+"sira": 6,
+"kod": "D-6-SAĞ-SHS",
+"detay": "4. Grup-Sağlık"
+},
+{
+"hizmetKolu": "Sağlık",
+"nitelik": "Döner Sermaye",
+"kodPrefix": "SAĞ",
+"hizmetSinifi": "SHS",
+"sira": 7,
+"kod": "D-7-SAĞ-SHS",
+"detay": "1. Grup-Üniversite"
+},
+{
+"hizmetKolu": "Sağlık",
+"nitelik": "Döner Sermaye",
+"kodPrefix": "SAĞ",
+"hizmetSinifi": "SHS",
+"sira": 8,
+"kod": "D-8-SAĞ-SHS",
+"detay": "2. Grup-Üniversite"
+},
+{
+"hizmetKolu": "Sağlık",
+"nitelik": "Döner Sermaye",
+"kodPrefix": "SAĞ",
+"hizmetSinifi": "SHS",
+"sira": 9,
+"kod": "D-9-SAĞ-SHS",
+"detay": "3. Grup-Üniversite"
+},
+{
+"hizmetKolu": "Sağlık",
+"nitelik": "Döner Sermaye",
+"kodPrefix": "SAĞ",
+"hizmetSinifi": "SHS",
+"sira": 10,
+"kod": "D-10-SAĞ-SHS",
+"detay": "4. Grup-Üniversite"
+},
+{
+"hizmetKolu": "Büro",
+"nitelik": "Tazminat",
+"kodPrefix": "BÜRO",
+"hizmetSinifi": "GİH",
+"sira": 31,
+"kod": "T-31-BÜRO-GİH",
+"detay": "Taşra uzmanları ve denetmenleri"
+},
+{
+"hizmetKolu": "Yerel",
+"nitelik": "Zamlar",
+"kodPrefix": "YRL",
+"hizmetSinifi": "GİH",
+"sira": 9,
+"kod": "Z-9-YRL-GİH",
+"detay": "İtfaiye  zamları bir kat artırımlı"
+},
+{
+"hizmetKolu": "Büro",
+"nitelik": "Tazminat",
+"kodPrefix": "BÜRO",
+"hizmetSinifi": "GİH",
+"sira": 32,
+"kod": "T-32-BÜRO-GİH",
+"detay": "Zabıt Katibi"
+},
+{
+"hizmetKolu": "Büro",
+"nitelik": "Tazminat",
+"kodPrefix": "BÜRO",
+"hizmetSinifi": "GİH",
+"sira": 33,
+"kod": "T-33-BÜRO-GİH",
+"detay": "Yurt Yönetim Memuru"
+},
+{
+"hizmetKolu": "Büro",
+"nitelik": "Ek Ödeme",
+"kodPrefix": "BÜRO",
+"hizmetSinifi": "SP",
+"sira": 22,
+"kod": "E-22-BÜRO-SP",
+"detay": "Yurt Yönetim Memuru"
+},
+{
+"hizmetKolu": "Genel",
+"nitelik": "Tazminat",
+"kodPrefix": "GEN",
+"hizmetSinifi": "GİH",
+"sira": 34,
+"kod": "T-34-GEN-GİH",
+"detay": "Adalet şeflerinin tazminatı"
+},
+{
+"hizmetKolu": "Genel",
+"nitelik": "Tazminat",
+"kodPrefix": "GEN",
+"hizmetSinifi": "GİH",
+"sira": 35,
+"kod": "T-35-GEN-GİH",
+"detay": "Üst yönetim tazminatı"
+},
+{
+"hizmetKolu": "Genel",
+"nitelik": "Tazminat",
+"kodPrefix": "GEN",
+"hizmetSinifi": "GİH",
+"sira": 36,
+"kod": "T-36-GEN-GİH",
+"detay": "Genel zam"
+},
+{
+"hizmetKolu": "Genel",
+"nitelik": "Tazminat",
+"kodPrefix": "BÜRO",
+"hizmetSinifi": "GİH",
+"sira": 37,
+"kod": "T-37-BÜRO-GİH",
+"detay": "İcra katipleri"
+},
+{
+"hizmetKolu": "Genel",
+"nitelik": "Tazminat",
+"kodPrefix": "YRL",
+"hizmetSinifi": "GİH",
+"sira": 38,
+"kod": "T-38-YRL-GİH",
+"detay": "Müfettişlerin tazminatları"
+},
+{
+"hizmetKolu": "Bayındırlık",
+"nitelik": "İlave Ödeme",
+"kodPrefix": "BAY",
+"hizmetSinifi": "GİH",
+"sira": 5,
+"kod": "İ-5-BAY-GİH",
+"detay": "Arama kurtarma teknisyenleri ve teknikerlerine ilave ücret"
+},
+{
+"hizmetKolu": "Genel",
+"nitelik": "Tazminat",
+"kodPrefix": "GNL",
+"hizmetSinifi": "GİH",
+"sira": 39,
+"kod": "T-39-GNL-GİH",
+"detay": "ek 10 kapsamındakilerin tazminatları"
+},
+{
+"hizmetKolu": "Diyanet",
+"nitelik": "Tazminat",
+"kodPrefix": "DYN",
+"hizmetSinifi": "DHS",
+"sira": 40,
+"kod": "T-40-DYN-DHS",
+"detay": "İl müftü yardımcısı ve ilçe müftüleri"
+},
+{
+"hizmetKolu": "Genel",
+"nitelik": "Ek Ödeme",
+"kodPrefix": "GEN",
+"hizmetSinifi": "THS",
+"sira": 23,
+"kod": "E-23-GEN-THS",
+"detay": "Programcı ve çözümleyici tazminatları"
+},
+{
+"hizmetKolu": "Genel",
+"nitelik": "Tazminat",
+"kodPrefix": "GEN",
+"hizmetSinifi": "DHS",
+"sira": 41,
+"kod": "T-41-GEN-DHS",
+"detay": "Sivl Savunma Uzmanları"
+}
+]

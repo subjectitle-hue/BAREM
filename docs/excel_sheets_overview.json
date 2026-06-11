@@ -1,0 +1,45 @@
+{
+  "sheet_count": 8,
+  "sheets": [
+    {
+      "title": "VD",
+      "max_row": 911,
+      "max_column": 35
+    },
+    {
+      "title": "M",
+      "max_row": 181,
+      "max_column": 73
+    },
+    {
+      "title": "V",
+      "max_row": 9711,
+      "max_column": 41
+    },
+    {
+      "title": "TS",
+      "max_row": 97,
+      "max_column": 25
+    },
+    {
+      "title": "İ",
+      "max_row": 175,
+      "max_column": 42
+    },
+    {
+      "title": "H",
+      "max_row": 184,
+      "max_column": 93
+    },
+    {
+      "title": "A",
+      "max_row": 119,
+      "max_column": 34
+    },
+    {
+      "title": "G",
+      "max_row": 1,
+      "max_column": 1
+    }
+  ]
+}
