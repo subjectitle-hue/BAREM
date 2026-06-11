@@ -141,7 +141,7 @@ struct StatDetailView: View {
     private func dollarRows() -> [YearValueRow] {
         if !session.yearlySeries.isEmpty {
             return session.yearlySeries.compactMap { row in
-                row.fxOutput?.yearlyAvgUsd.map { YearValueRow(year: row.year, yearlyValue: $0) }
+                row.fxOutput.map { YearValueRow(year: row.year, yearlyValue: $0.yearlyAvgUsd) }
             }
         }
         return repo.usdRates()
@@ -150,7 +150,7 @@ struct StatDetailView: View {
     private func goldRows() -> [YearValueRow] {
         if !session.yearlySeries.isEmpty {
             return session.yearlySeries.compactMap { row in
-                row.fxOutput?.yearlyAvgGoldQuarter.map { YearValueRow(year: row.year, yearlyValue: $0) }
+                row.fxOutput.map { YearValueRow(year: row.year, yearlyValue: $0.yearlyAvgGoldQuarter) }
             }
         }
         return repo.goldRates()

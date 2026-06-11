@@ -203,7 +203,7 @@ private struct KadroStep: View {
                         model.form.kadroDetay = nil
                         model.form.derece = nil
                     } label: {
-                        BaremSelectionCard(title: unvan, selected: model.form.unvan == unvan, subtitle: nil)
+                        BaremSelectionCard(title: unvan, selected: model.form.unvan == unvan)
                     }
                     .buttonStyle(.plain)
                 }
