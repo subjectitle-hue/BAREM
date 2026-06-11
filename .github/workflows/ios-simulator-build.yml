@@ -11,6 +11,8 @@ on:
 jobs:
   build-ios:
     runs-on: macos-15
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
 
@@ -71,3 +73,13 @@ jobs:
           name: xcodebuild-log
           path: xcodebuild.log
           retention-days: 7
+
+      - name: Publish build log to repo (debug)
+        if: failure()
+        run: |
+          cp xcodebuild.log build-error-latest.txt
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add build-error-latest.txt
+          git diff --staged --quiet || git commit -m "ci: son derleme hatasi logu"
+          git push
