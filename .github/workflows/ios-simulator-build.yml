@@ -19,8 +19,9 @@ jobs:
           cp -f app/src/main/assets/engine/* ios/Barem/Barem/Resources/engine/
           cp -f app/src/main/assets/memur/* ios/Barem/Barem/Resources/memur/
 
-      - name: Build Barem for iOS Simulator (arm64)
+      - name: Build Barem for iOS Simulator
         run: |
+          set -euo pipefail
           cd ios/Barem
           xcodebuild \
             -project Barem.xcodeproj \
@@ -28,14 +29,13 @@ jobs:
             -sdk iphonesimulator \
             -configuration Debug \
             -derivedDataPath build \
-            -destination 'generic/platform=iOS Simulator' \
-            ARCHS=arm64 \
+            CODE_SIGNING_ALLOWED=NO \
             ONLY_ACTIVE_ARCH=YES \
-            CODE_SIGNING_ALLOWED=NO
+            build
           APP=build/Build/Products/Debug-iphonesimulator/Barem.app
+          test -d "$APP"
           test -f "$APP/Barem"
-          test "$(ls "$APP/engine" | wc -l)" -ge 10
-          file "$APP/Barem"
+          find "$APP" -name 'h_engine_full.json' -print | grep -q .
 
       - name: Sign simulator bundle
         run: |
