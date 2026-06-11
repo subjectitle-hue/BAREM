@@ -55,7 +55,7 @@ final class CalcSession: ObservableObject {
         return YearlyCalcEngine().calculateSeries(form: form, kadro: kadro)
     }
 
-    static func kadroSummaryLine(form: MemurFormState) -> String {
+    nonisolated static func kadroSummaryLine(form: MemurFormState) -> String {
         var parts: [String] = []
         if let unvan = form.unvan { parts.append(unvan) }
         if let d = form.derece { parts.append("\(d). derece") }
@@ -67,7 +67,7 @@ final class CalcSession: ObservableObject {
         return parts.joined(separator: " · ")
     }
 
-    static func netSummaryLine(result: SalaryResult) -> String {
+    nonisolated static func netSummaryLine(result: SalaryResult) -> String {
         "\(baremFormat(result.netAylik)) ₺ ort. net"
     }
 }
