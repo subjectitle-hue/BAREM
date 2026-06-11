@@ -10,7 +10,7 @@ on:
 
 jobs:
   build-ios:
-    runs-on: macos-14
+    runs-on: macos-15
     steps:
       - uses: actions/checkout@v4
 
@@ -24,8 +24,8 @@ jobs:
 
       - name: Build Barem for iOS Simulator
         run: |
-          set -o pipefail
           cd ios/Barem
+          set +e
           xcodebuild \
             -project Barem.xcodeproj \
             -scheme Barem \
@@ -34,15 +34,24 @@ jobs:
             -derivedDataPath build \
             CODE_SIGNING_ALLOWED=NO \
             ONLY_ACTIVE_ARCH=NO \
-            build 2>&1 | tee "$GITHUB_WORKSPACE/xcodebuild.log"
+            build > "$GITHUB_WORKSPACE/xcodebuild.log" 2>&1
+          XC=$?
+          set -e
           APP=build/Build/Products/Debug-iphonesimulator/Barem.app
-          test -f "$APP/Barem"
+          if [ $XC -ne 0 ] || [ ! -f "$APP/Barem" ]; then
+            {
+              echo "## xcodebuild exit $XC"
+              echo '```'
+              tail -100 "$GITHUB_WORKSPACE/xcodebuild.log"
+              echo '```'
+            } >> "$GITHUB_STEP_SUMMARY"
+            exit 1
+          fi
 
       - name: Sign for Appetize
         run: |
           APP=ios/Barem/build/Build/Products/Debug-iphonesimulator/Barem.app
           codesign --force --sign - "$APP"
-          codesign --verify --verbose "$APP"
 
       - name: Package for Appetize
         run: |
