@@ -19,7 +19,7 @@ jobs:
           cp -f app/src/main/assets/engine/* ios/Barem/Barem/Resources/engine/
           cp -f app/src/main/assets/memur/* ios/Barem/Barem/Resources/memur/
 
-      - name: Build Barem for iOS Simulator
+      - name: Build Barem for iOS Simulator (arm64)
         run: |
           cd ios/Barem
           xcodebuild \
@@ -28,19 +28,28 @@ jobs:
             -sdk iphonesimulator \
             -configuration Debug \
             -derivedDataPath build \
-            CODE_SIGNING_ALLOWED=NO \
-            ONLY_ACTIVE_ARCH=NO \
-            | xcpretty || true
-          test -d build/Build/Products/Debug-iphonesimulator/Barem.app
+            -destination 'generic/platform=iOS Simulator' \
+            ARCHS=arm64 \
+            ONLY_ACTIVE_ARCH=YES \
+            CODE_SIGNING_ALLOWED=NO
+          APP=build/Build/Products/Debug-iphonesimulator/Barem.app
+          test -f "$APP/Barem"
+          test "$(ls "$APP/engine" | wc -l)" -ge 10
+          file "$APP/Barem"
+
+      - name: Sign simulator bundle
+        run: |
+          APP=ios/Barem/build/Build/Products/Debug-iphonesimulator/Barem.app
+          codesign --force --sign - "$APP"
 
       - name: Package for Appetize
         run: |
-          mkdir -p dist
           cd ios/Barem/build/Build/Products/Debug-iphonesimulator
-          zip -r "$GITHUB_WORKSPACE/dist/Barem-0.2.2-ios-simulator.zip" Barem.app
+          zip -ry "$GITHUB_WORKSPACE/Barem-appetize.zip" Barem.app
+          unzip -l "$GITHUB_WORKSPACE/Barem-appetize.zip" | grep 'Barem.app/Barem$'
 
       - uses: actions/upload-artifact@v4
         with:
-          name: Barem-0.2.2-ios-simulator
-          path: dist/Barem-0.2.2-ios-simulator.zip
+          name: APPETIZE-UPLOAD-THIS-ZIP
+          path: Barem-appetize.zip
           retention-days: 30
